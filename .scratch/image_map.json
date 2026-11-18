@@ -1,0 +1,72 @@
+{
+ "images": [
+  {
+   "idx": 100,
+   "rid": "rId7",
+   "target": "media/image1.png",
+   "cx_emu": 5303520,
+   "cy_emu": 3219450,
+   "w_in": 5.8,
+   "h_in": 3.52,
+   "bytes": 123105
+  },
+  {
+   "idx": 103,
+   "rid": "rId8",
+   "target": "media/image2.jpeg",
+   "cx_emu": 3291205,
+   "cy_emu": 3438525,
+   "w_in": 3.6,
+   "h_in": 3.76,
+   "bytes": 46498
+  },
+  {
+   "idx": 106,
+   "rid": "rId9",
+   "target": "media/image3.jpeg",
+   "cx_emu": 4457700,
+   "cy_emu": 3824605,
+   "w_in": 4.88,
+   "h_in": 4.18,
+   "bytes": 46663
+  },
+  {
+   "idx": 126,
+   "rid": "rId10",
+   "target": "media/image4.png",
+   "cx_emu": 5486400,
+   "cy_emu": 3945255,
+   "w_in": 6.0,
+   "h_in": 4.31,
+   "bytes": 149208
+  },
+  {
+   "idx": 136,
+   "rid": "rId11",
+   "target": "media/image5.jpeg",
+   "cx_emu": 5272405,
+   "cy_emu": 3021330,
+   "w_in": 5.77,
+   "h_in": 3.3,
+   "bytes": 65513
+  },
+  {
+   "idx": 148,
+   "rid": "rId12",
+   "target": "media/image6.jpeg",
+   "cx_emu": 5274310,
+   "cy_emu": 3956050,
+   "w_in": 5.77,
+   "h_in": 4.33,
+   "bytes": 76426
+  }
+ ],
+ "all_media": {
+  "word/media/image1.png": 123105,
+  "word/media/image2.jpeg": 46498,
+  "word/media/image3.jpeg": 46663,
+  "word/media/image4.png": 149208,
+  "word/media/image5.jpeg": 65513,
+  "word/media/image6.jpeg": 76426
+ }
+}

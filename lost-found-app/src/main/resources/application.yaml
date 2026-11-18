@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  # 敏感配置（数据库密码、OSS AK/SK、JWT 密钥）放在仓库外的用户目录，
+  # 也可用环境变量 SPRING_DATASOURCE_PASSWORD / ALIOSS_ACCESS_KEY_ID / JWT_SECRET 覆盖。
+  config:
+    import: optional:file:${user.home}/.lost-found-platform/application-secret.yml
+  profiles:
+    active:
+      - dev
+  application:
+    name: lost-found-platform
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lost_found?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto

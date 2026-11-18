@@ -1,0 +1,1641 @@
+# Dimension 5: table structure
+source: C:\Users\l15\xwechat_files\wxid_payc8vqwjywv22_d027\msg\file\2026-11\[模板]计科2班-x组-实验2-项目总体和详细设计.docx
+location_base: /word/document.xml/w:body/
+syntax: [T<n>] starts a table, [R<n>] a row, and [C<n>] a cell; listed defaults apply when omitted; null means unset/inherited.
+table_defaults: nesting_level=0, part="word/document.xml", section_index=1, style="GridTable4Accent1", width={"w":"0","type":"auto"}
+row_defaults: none
+cell_defaults: paragraphs=1
+definitions: @v1 cell.width={"w":"1833","type":"dxa"}; @v2 cell.width={"w":"1961","type":"dxa"}; @v3 cell.width={"w":"1701","type":"dxa"}; @v4 cell.width={"w":"1734","type":"dxa"}; @v5 cell.width={"w":"1293","type":"dxa"}; @v6 cell.width={"w":"1242","type":"dxa"}; @v7 cell.width={"w":"1418","type":"dxa"}; @v8 cell.width={"w":"1559","type":"dxa"}; @v9 cell.width={"w":"4303","type":"dxa"}; @v10 cell.width={"w":"2074","type":"dxa"}; @v11 cell.width={"w":"1129","type":"dxa"}; @v12 cell.width={"w":"1359","type":"dxa"}; @v13 cell.width={"w":"1252","type":"dxa"}; @v14 cell.width={"w":"3347","type":"dxa"}; @v15 cell.width={"w":"1209","type":"dxa"}; @v16 cell.width={"w":"1659","type":"dxa"}; @v17 cell.width={"w":"1660","type":"dxa"}; @v18 cell.width={"w":"704","type":"dxa"}; @v19 cell.width={"w":"2126","type":"dxa"}; @v20 cell.width={"w":"2694","type":"dxa"}; @v21 cell.width={"w":"2772","type":"dxa"}; @v22 cell.width={"w":"1382","type":"dxa"}; @v23 cell.width={"w":"1383","type":"dxa"}; @v24 cell.width={"w":"1384","type":"dxa"}; @v25 cell.width={"w":"1381","type":"dxa"}; @v26 cell.width={"w":"1390","type":"dxa"}; @v27 cell.width={"w":"1380","type":"dxa"}; @v28 cell.width={"w":"1820","type":"dxa"}; @v29 cell.width={"w":"1273","type":"dxa"}; @v30 cell.width={"w":"1341","type":"dxa"}; @v31 cell.width={"w":"1275","type":"dxa"}; @v32 cell.width={"w":"1280","type":"dxa"}; @v33 cell.width={"w":"1307","type":"dxa"}; @v34 cell.width={"w":"1556","type":"dxa"}; @v35 cell.width={"w":"1339","type":"dxa"}; @v36 cell.width={"w":"1367","type":"dxa"}; @v37 cell.width={"w":"1340","type":"dxa"}; @v38 cell.width={"w":"1353","type":"dxa"}
+text_policy: full text is emitted without truncation.
+omitted: record_type=table; repeated defaults; table text because it is the ordered concatenation of cell text; raw table XML.
+normalized: loc is relative to location_base; @v references definitions; border and margin XML are losslessly compacted by tag and attributes.
+
+[T1 loc=32 style="a6" grid=[{"w":"1833"},{"w":"1961"},{"w":"1701"},{"w":"1734"},{"w":"1293"}]]
+
+[R1 height={"val":"1158"}]
+[C1 width=@v1 valign="center"]
+优95
+[C2 width=@v2 valign="center"]
+良85
+[C3 width=@v3 valign="center"]
+中75
+[C4 width=@v4 valign="center"]
+及格65
+[C5 width=@v5 valign="center"]
+不及格30
+
+[R2 height={"val":"3042"}]
+[C1 width=@v1]
+<empty/>
+[C2 width=@v2]
+<empty/>
+[C3 width=@v3]
+<empty/>
+[C4 width=@v4]
+<empty/>
+[C5 width=@v5]
+<empty/>
+
+[T2 loc=34 style="a6" grid=[{"w":"1242"},{"w":"1418"},{"w":"1559"},{"w":"4303"}]]
+
+[R1]
+[C1 width=@v6]
+学号
+[C2 width=@v7]
+姓名
+[C3 width=@v8]
+评价
+[C4 width=@v9]
+评价原因
+
+[R2]
+[C1 width=@v6]
+0001
+[C2 width=@v7]
+周杰伦
+[C3 width=@v8]
+85
+[C4 width=@v9]
+<empty/>
+
+[R3]
+[C1 width=@v6]
+0002
+[C2 width=@v7]
+朴树
+[C3 width=@v8]
+95
+[C4 width=@v9]
+<empty/>
+
+[R4]
+[C1 width=@v6]
+0003
+[C2 width=@v7]
+张三
+[C3 width=@v8]
+30
+[C4 width=@v9]
+<empty/>
+
+[R5]
+[C1 width=@v6]
+0004
+[C2 width=@v7]
+李四
+[C3 width=@v8]
+75
+[C4 width=@v9]
+<empty/>
+
+[T3 loc=107 style="a6" grid=[{"w":"2074"},{"w":"2176"},{"w":"2074"},{"w":"2074"}]]
+
+[R1]
+[C1 width=@v10]
+子系统编号  
+[C2 width=@v10]
+子系统名  
+[C3 width=@v10]
+子系统功能简述  
+[C4 width=@v10]
+子系统之间关系
+
+[R2]
+[C1 width=@v10]
+SS1
+[C2 paragraphs=2 width=@v10]
+LMS_Catalogue
+编目管理子系统
+[C3 paragraphs=4 width=@v10]
+编目时可以迅速查重
+对新种类的书进行图书信息登记
+对已存在种类的新书直接进行图书财产登记
+图书登记信息修改
+[C4 width=@v10]
+<empty/>
+
+[R3]
+[C1 width=@v10]
+SS2
+[C2 paragraphs=2 width=@v10]
+LMS_Circulation
+流通管理子系统
+[C3 paragraphs=4 width=@v10]
+进行借书管理
+进行还书管理
+进行续借管理
+当图书借阅时间到期后实现自动给读者发送电子邮件提醒其归还图书
+[C4 width=@v10]
+<empty/>
+
+[R4]
+[C1 width=@v10]
+SS3
+[C2 paragraphs=2 width=@v10]
+LMS_Search
+查询子系统
+[C3 paragraphs=5 width=@v10]
+根据读者选择的查询方式以及信息进行查书
+读者查询自己的借阅情况
+查询借某一本图书的读者信息实现可分时段查询
+查询某一类图书被借阅次数实现可分时段查询
+
+[C4 width=@v10]
+<empty/>
+
+[R5]
+[C1 width=@v10]
+SS4
+[C2 paragraphs=2 width=@v10]
+LMS_ApplyLicense
+借阅证管理系统
+[C3 paragraphs=3 width=@v10]
+借阅证办理	
+借阅证挂失	
+借阅证补办
+[C4 width=@v10]
+<empty/>
+
+[T4 loc=110 grid=[{"w":"1113"},{"w":"1327"},{"w":"1231"},{"w":"3668"},{"w":"1183"}]]
+
+[R1]
+[C1 width=@v11]
+模块编号
+[C2 width=@v12]
+模块名称
+[C3 width=@v13]
+子模块编号
+[C4 width=@v14]
+子模块英文名
+[C5 width=@v15]
+子模块功能简述
+
+[R2]
+[C1 width=@v11]
+M1
+[C2 width=@v12]
+新书编目
+[C3 width=@v13]
+M 1-1
+[C4 width=@v14]
+LMS_Cata_Recheck
+[C5 width=@v15]
+编目迅速查重
+
+[R3]
+[C1 width=@v11]
+M1
+[C2 width=@v12]
+新书编目
+[C3 width=@v13]
+M 1-2
+[C4 width=@v14]
+LMS_Cata_BookInfo
+[C5 width=@v15]
+对新种类的书进行图书信息登记
+
+[R4]
+[C1 width=@v11]
+M1
+[C2 width=@v12]
+新书编目
+[C3 width=@v13]
+M 1-3
+[C4 width=@v14]
+LMS_Cata_AssetInfo
+[C5 width=@v15]
+对已存在种类的新书直接进行图书财产登记
+
+[R5]
+[C1 width=@v11]
+M2
+[C2 width=@v12]
+图书信息修改
+[C3 width=@v13]
+M 2-1
+[C4 width=@v14]
+LMS_Cata_AlterBookInfo
+[C5 width=@v15]
+图书登记信息修改
+
+[R6]
+[C1 width=@v11]
+M3
+[C2 width=@v12]
+借书
+[C3 width=@v13]
+M 3-1
+[C4 width=@v14]
+LMS_Circ_Borrow
+[C5 width=@v15]
+进行借书管理
+
+[R7]
+[C1 width=@v11]
+M4
+[C2 width=@v12]
+还书
+[C3 width=@v13]
+M 4-1
+[C4 width=@v14]
+LMS_Circ_Return
+[C5 width=@v15]
+进行还书管理
+
+[R8]
+[C1 width=@v11]
+M5
+[C2 width=@v12]
+续借
+[C3 width=@v13]
+M 5-1
+[C4 width=@v14]
+LMS_Circ_Renew
+[C5 width=@v15]
+进行续借管理
+
+[R9]
+[C1 width=@v11]
+M6
+[C2 width=@v12]
+图书信息查询
+[C3 width=@v13]
+M 6-1
+[C4 width=@v14]
+LMS_Search_AssetsNO
+[C5 width=@v15]
+按财产号查询
+
+[R10]
+[C1 width=@v11]
+M6
+[C2 width=@v12]
+图书信息查询
+[C3 width=@v13]
+M 6-2
+[C4 width=@v14]
+LMS_Search_BookName
+[C5 width=@v15]
+按书名查询
+
+[R11]
+[C1 width=@v11]
+M6
+[C2 width=@v12]
+图书信息查询
+[C3 width=@v13]
+M 6-3
+[C4 width=@v14]
+LMS_Search_Author
+[C5 width=@v15]
+按作者查询
+
+[R12]
+[C1 width=@v11]
+M6
+[C2 width=@v12]
+图书信息查询
+[C3 width=@v13]
+M 6-4
+[C4 width=@v14]
+LMS_Search_Publisher
+[C5 width=@v15]
+按出版社查询
+
+[R13]
+[C1 width=@v11]
+M6
+[C2 width=@v12]
+图书信息查询
+[C3 width=@v13]
+M 6-5
+[C4 width=@v14]
+LMS_Search_SearchNO
+[C5 width=@v15]
+按索书号查询
+
+[R14]
+[C1 width=@v11]
+M7
+[C2 width=@v12]
+读者借阅情况查询
+[C3 width=@v13]
+M 7-1
+[C4 width=@v14]
+LMS_Search_ReaderBorrwedInfo
+[C5 width=@v15]
+读者查询自己的借阅情况
+
+[R15]
+[C1 width=@v11]
+M7
+[C2 width=@v12]
+读者借阅情况查询
+[C3 width=@v13]
+M 7-2
+[C4 width=@v14]
+LMS_Search_BookBorrowedReader
+[C5 width=@v15]
+查询借某一本图书的读者信息实现可分时查询
+
+[R16]
+[C1 width=@v11]
+M7
+[C2 width=@v12]
+读者借阅情况查询
+[C3 width=@v13]
+M 7-3
+[C4 width=@v14]
+LMS_Search_BookBorrowedTimes
+[C5 width=@v15]
+查询某一类图书被借阅次数实现可分时查询
+
+[R17]
+[C1 width=@v11]
+M8
+[C2 width=@v12]
+借阅证初办
+[C3 width=@v13]
+M 8-1
+[C4 width=@v14]
+LMS_ApplyLicense_Apply
+[C5 width=@v15]
+借阅证初办
+
+[R18]
+[C1 width=@v11]
+M9
+[C2 width=@v12]
+借阅证挂失
+[C3 width=@v13]
+M 9-1
+[C4 width=@v14]
+LMS_ApplyLicense_Loss
+[C5 width=@v15]
+借阅证挂失
+
+[R19]
+[C1 width=@v11]
+M10
+[C2 width=@v12]
+借阅证补办
+[C3 width=@v13]
+M 10-1
+[C4 width=@v14]
+LMS_ApplyLicense_Reapply
+[C5 width=@v15]
+借阅证补办
+
+[T5 loc=113 grid=[{"w":"1659"},{"w":"1659"},{"w":"1659"},{"w":"1659"},{"w":"1660"}]]
+
+[R1]
+[C1 width=@v16]
+功能描述
+[C2 width=@v16]
+对应模块
+[C3 width=@v16]
+编目人员
+[C4 width=@v16]
+流通人员
+[C5 width=@v17]
+读者
+
+[R2]
+[C1 width=@v16]
+编目时可以迅速查重
+[C2 width=@v16]
+M1-1
+[C3 width=@v16]
+√
+[C4 width=@v16]
+<empty/>
+[C5 width=@v17]
+<empty/>
+
+[R3]
+[C1 width=@v16]
+对新种类的书进行图书信息登记
+[C2 width=@v16]
+M1-2
+[C3 width=@v16]
+√
+[C4 width=@v16]
+<empty/>
+[C5 width=@v17]
+<empty/>
+
+[R4]
+[C1 width=@v16]
+对已存在种类的新书直接进行图书财产登记
+[C2 width=@v16]
+M1-3
+[C3 width=@v16]
+√
+[C4 width=@v16]
+<empty/>
+[C5 width=@v17]
+<empty/>
+
+[R5]
+[C1 width=@v16]
+图书登记信息修改
+[C2 width=@v16]
+M2-1
+[C3 width=@v16]
+√
+[C4 width=@v16]
+<empty/>
+[C5 width=@v17]
+<empty/>
+
+[R6]
+[C1 width=@v16]
+进行借书管理
+[C2 width=@v16]
+M3-1
+[C3 width=@v16]
+<empty/>
+[C4 width=@v16]
+√
+[C5 width=@v17]
+<empty/>
+
+[R7]
+[C1 width=@v16]
+进行还书管理
+[C2 width=@v16]
+M4-1
+[C3 width=@v16]
+<empty/>
+[C4 width=@v16]
+√
+[C5 width=@v17]
+<empty/>
+
+[R8]
+[C1 width=@v16]
+进行续借管理
+[C2 width=@v16]
+M5-1
+[C3 width=@v16]
+<empty/>
+[C4 width=@v16]
+√
+[C5 width=@v17]
+<empty/>
+
+[R9]
+[C1 width=@v16]
+根据用户选择的查询方式以及信息进行查书
+[C2 width=@v16]
+M6-1、M6-2、M6-3、M6-4、M6-5
+[C3 width=@v16]
+√
+[C4 width=@v16]
+√
+[C5 width=@v17]
+√
+
+[R10]
+[C1 width=@v16]
+读者查询自己的借阅情况
+[C2 width=@v16]
+M7-1
+[C3 width=@v16]
+<empty/>
+[C4 width=@v16]
+<empty/>
+[C5 width=@v17]
+√
+
+[R11]
+[C1 width=@v16]
+查询借某一本图书的读者信息实现可分时段查询
+[C2 width=@v16]
+M7-2
+[C3 width=@v16]
+<empty/>
+[C4 width=@v16]
+√
+[C5 width=@v17]
+<empty/>
+
+[R12]
+[C1 width=@v16]
+查询某一类图书被借阅次数实现可分时段查询
+[C2 width=@v16]
+M7-3
+[C3 width=@v16]
+<empty/>
+[C4 width=@v16]
+√
+[C5 width=@v17]
+√
+
+[R13]
+[C1 width=@v16]
+借阅证办理
+[C2 width=@v16]
+M8-1
+[C3 width=@v16]
+<empty/>
+[C4 width=@v16]
+√
+[C5 width=@v17]
+<empty/>
+
+[R14]
+[C1 width=@v16]
+借阅证挂失
+[C2 width=@v16]
+M9-1
+[C3 width=@v16]
+<empty/>
+[C4 width=@v16]
+√
+[C5 width=@v17]
+<empty/>
+
+[R15]
+[C1 width=@v16]
+借阅证补办
+[C2 width=@v16]
+M10-1
+[C3 width=@v16]
+<empty/>
+[C4 width=@v16]
+√
+[C5 width=@v17]
+<empty/>
+
+[T6 loc=176 grid=[{"w":"704"},{"w":"2126"},{"w":"2870"},{"w":"2772"}]]
+
+[R1]
+[C1 width=@v18]
+序号
+[C2 width=@v19]
+中文表名
+[C3 width=@v20]
+英文表名
+[C4 width=@v21]
+表功能说明
+
+[R2]
+[C1 width=@v18]
+1
+[C2 width=@v19]
+图书财产明细表
+[C3 width=@v20]
+Books_Assets
+[C4 width=@v21]
+记录每本书的相关信息
+
+[R3]
+[C1 width=@v18]
+2
+[C2 width=@v19]
+图书信息表
+[C3 width=@v20]
+Books_Information
+[C4 width=@v21]
+记录每类书的相关信息
+
+[R4]
+[C1 width=@v18]
+3
+[C2 width=@v19]
+借还书信息表
+[C3 width=@v20]
+BorrowReturn_Information
+[C4 width=@v21]
+记录借书，还书，续借的相关信息
+
+[R5]
+[C1 width=@v18]
+4
+[C2 width=@v19]
+操作日志
+[C3 width=@v20]
+OperateDiary
+[C4 width=@v21]
+记录“图书借阅”、“图书损坏赔偿”、“图书借阅过期处罚”、“图书归还”、“图书续借”时的操作信息
+
+[R6]
+[C1 width=@v18]
+5
+[C2 width=@v19]
+读者信息表
+[C3 width=@v20]
+Reader_Information
+[C4 width=@v21]
+记录读者的相关信息
+
+[R7]
+[C1 width=@v18]
+6
+[C2 width=@v19]
+借阅证信息表
+[C3 width=@v20]
+LibraryCard_Information
+[C4 width=@v21]
+记录读者的借阅证的相关信息
+
+[R8]
+[C1 width=@v18]
+7
+[C2 width=@v19]
+部门信息表
+[C3 width=@v20]
+Department_Information
+[C4 width=@v21]
+记录图书所存放部门的相关信息
+
+[R9]
+[C1 width=@v18]
+8
+[C2 width=@v19]
+操作员信息表
+[C3 width=@v20]
+Operator_Information
+[C4 width=@v21]
+记录编目员和操作员员的相关信息
+
+[T7 loc=180 grid=[{"w":"2193"},{"w":"1062"},{"w":"1284"},{"w":"1063"},{"w":"1062"},{"w":"1858"}]]
+
+[R1]
+[C1 width=@v22]
+字段名
+[C2 width=@v22]
+说明
+[C3 width=@v23]
+类型
+[C4 width=@v23]
+长度
+[C5 width=@v23]
+可空
+[C6 width=@v23]
+备注
+
+[R2]
+[C1 width=@v22]
+ReaderId
+[C2 width=@v22]
+读者编号
+[C3 width=@v23]
+varchar
+[C4 width=@v23]
+6
+[C5 width=@v23]
+否
+[C6 width=@v23]
+PK
+
+[R3]
+[C1 width=@v22]
+ReaderName
+[C2 width=@v22]
+读者姓名
+[C3 width=@v23]
+char
+[C4 width=@v23]
+20
+[C5 width=@v23]
+否
+[C6 width=@v23]
+<empty/>
+
+[R4]
+[C1 width=@v22]
+ReaderSex
+[C2 width=@v22]
+性别
+[C3 width=@v23]
+char
+[C4 width=@v23]
+4
+[C5 width=@v23]
+否
+[C6 width=@v23]
+IN（“男”OR“女”）
+
+[R5]
+[C1 width=@v22]
+ReaderStyle
+[C2 width=@v22]
+读者类别
+[C3 width=@v23]
+varchar
+[C4 width=@v23]
+10
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[R6]
+[C1 width=@v22]
+ReaderBirthday
+[C2 width=@v22]
+出生日期
+[C3 width=@v23]
+datetime
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+例2012-02-03
+
+[R7]
+[C1 width=@v22]
+ReaderOrganization
+[C2 width=@v22]
+单位
+[C3 width=@v23]
+string
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[R8]
+[C1 width=@v22]
+CertificateStyle
+[C2 width=@v22]
+证件名称
+[C3 width=@v23]
+varchar
+[C4 width=@v23]
+10
+[C5 width=@v23]
+否
+[C6 width=@v23]
+IN("学生证"or"军官证"or"身份证")
+
+[R9]
+[C1 width=@v22]
+CertificateNum
+[C2 width=@v22]
+证件号码
+[C3 width=@v23]
+varchar
+[C4 width=@v23]
+20
+[C5 width=@v23]
+否
+[C6 width=@v23]
+<empty/>
+
+[R10]
+[C1 width=@v22]
+Address
+[C2 width=@v22]
+联系地址
+[C3 width=@v23]
+string
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[R11]
+[C1 width=@v22]
+ReaderPhone
+[C2 width=@v22]
+联系电话
+[C3 width=@v23]
+varchar
+[C4 width=@v23]
+13
+[C5 width=@v23]
+否
+[C6 width=@v23]
+为8位数字或11位数字
+
+[R12]
+[C1 width=@v22]
+ReaderPostcode
+[C2 width=@v22]
+邮编
+[C3 width=@v23]
+char
+[C4 width=@v23]
+6
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+6位数字
+
+[R13]
+[C1 width=@v22]
+Notes
+[C2 width=@v22]
+备注
+[C3 width=@v23]
+string
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[T8 loc=182 grid=[{"w":"1510"},{"w":"1381"},{"w":"1382"},{"w":"1383"},{"w":"1383"},{"w":"1383"}]]
+
+[R1]
+[C1 width=@v24]
+字段名
+[C2 width=@v25]
+说明
+[C3 width=@v22]
+类型
+[C4 width=@v23]
+长度
+[C5 width=@v23]
+可空
+[C6 width=@v23]
+备注
+
+[R2]
+[C1 width=@v24]
+BookISBN
+[C2 width=@v25]
+ISBN
+[C3 width=@v22]
+varchar
+[C4 width=@v23]
+10
+[C5 width=@v23]
+否
+[C6 width=@v23]
+PK
+
+[R3]
+[C1 width=@v24]
+BookType
+[C2 width=@v25]
+图书名称
+[C3 width=@v22]
+Varchar
+[C4 width=@v23]
+20
+[C5 width=@v23]
+否
+[C6 width=@v23]
+<empty/>
+
+[R4]
+[C1 width=@v24]
+BookName
+[C2 width=@v25]
+图书类别
+[C3 width=@v22]
+char
+[C4 width=@v23]
+10
+[C5 width=@v23]
+否
+[C6 width=@v23]
+<empty/>
+
+[R5]
+[C1 width=@v24]
+CallNumber
+[C2 width=@v25]
+索书号
+[C3 width=@v22]
+char
+[C4 width=@v23]
+8
+[C5 width=@v23]
+否
+[C6 width=@v23]
+8位数字
+
+[R6]
+[C1 width=@v24]
+Author
+[C2 width=@v25]
+作者
+[C3 width=@v22]
+char
+[C4 width=@v23]
+10
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[R7]
+[C1 width=@v24]
+Translator
+[C2 width=@v25]
+译者
+[C3 width=@v22]
+char
+[C4 width=@v23]
+10
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[R8]
+[C1 width=@v24]
+Price
+[C2 width=@v25]
+单价
+[C3 width=@v22]
+float
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[R9]
+[C1 width=@v24]
+PublisherNo
+[C2 width=@v25]
+出版社编号
+[C3 width=@v22]
+Varchar
+[C4 width=@v23]
+20
+[C5 width=@v23]
+否
+[C6 width=@v23]
+<empty/>
+
+[R10]
+[C1 width=@v24]
+PubDate
+[C2 width=@v25]
+出版时间
+[C3 width=@v22]
+Datetime
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[R11]
+[C1 width=@v24]
+Quantity
+[C2 width=@v25]
+出版总数量
+[C3 width=@v22]
+int
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[R12]
+[C1 width=@v24]
+CurrentStock
+[C2 width=@v25]
+现存量
+[C3 width=@v22]
+int
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+否
+[C6 width=@v23]
+<empty/>
+
+[R13]
+[C1 width=@v24]
+synopsis
+[C2 width=@v25]
+内容简介
+[C3 width=@v22]
+string
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[R14]
+[C1 width=@v24]
+Notes
+[C2 width=@v25]
+备注
+[C3 width=@v22]
+string
+[C4 width=@v23]
+<empty/>
+[C5 width=@v23]
+<empty/>
+[C6 width=@v23]
+<empty/>
+
+[T9 loc=185 grid=[{"w":"1545"},{"w":"1380"},{"w":"1382"},{"w":"1381"},{"w":"1381"},{"w":"1382"}]]
+
+[R1]
+[C1 width=@v26]
+字段名
+[C2 width=@v27]
+意义
+[C3 width=@v22]
+类型
+[C4 width=@v25]
+长度
+[C5 width=@v25]
+可空
+[C6 width=@v22]
+备注
+
+[R2]
+[C1 width=@v26]
+AssetsNo
+[C2 width=@v27]
+财产号
+[C3 width=@v22]
+varchar
+[C4 width=@v25]
+6
+[C5 width=@v25]
+否
+[C6 width=@v22]
+PK
+
+[R3]
+[C1 width=@v26]
+BookISBN
+[C2 width=@v27]
+ISBN
+[C3 width=@v22]
+varchar
+[C4 width=@v25]
+10
+[C5 width=@v25]
+否
+[C6 width=@v22]
+FK
+
+[R4]
+[C1 width=@v26]
+Shelf
+[C2 width=@v27]
+图书位置
+[C3 width=@v22]
+char
+[C4 width=@v25]
+15
+[C5 width=@v25]
+否
+[C6 width=@v22]
+(“仓库”or“xx室书架”)
+
+[R5]
+[C1 width=@v26]
+BookStatus
+[C2 width=@v27]
+图书状态
+[C3 width=@v22]
+char
+[C4 width=@v25]
+6
+[C5 width=@v25]
+否
+[C6 width=@v22]
+“可借”or”不可借”or“丢失”or“损坏”
+
+[R6]
+[C1 width=@v26]
+LaidDate
+[C2 width=@v27]
+入库日期
+[C3 width=@v22]
+datetime
+[C4 width=@v25]
+否
+[C5 width=@v25]
+<empty/>
+[C6 width=@v22]
+<empty/>
+
+[R7]
+[C1 width=@v26]
+BorrowTimes
+[C2 width=@v27]
+借阅次数
+[C3 width=@v22]
+int
+[C4 width=@v25]
+否
+[C5 width=@v25]
+<empty/>
+[C6 width=@v22]
+<empty/>
+
+[R8]
+[C1 width=@v26]
+Notes
+[C2 width=@v27]
+备注
+[C3 width=@v22]
+string
+[C4 width=@v25]
+<empty/>
+[C5 width=@v25]
+<empty/>
+[C6 width=@v22]
+<empty/>
+
+[T10 loc=188 grid=[{"w":"1888"},{"w":"1273"},{"w":"1341"},{"w":"1275"},{"w":"1280"},{"w":"1307"}]]
+
+[R1]
+[C1 width=@v28]
+字段名
+[C2 width=@v29]
+意义
+[C3 width=@v30]
+类型
+[C4 width=@v31]
+长度
+[C5 width=@v32]
+空否
+[C6 width=@v33]
+备注
+
+[R2]
+[C1 width=@v28]
+InformationNum
+[C2 width=@v29]
+借书信息编号
+[C3 width=@v30]
+varhar
+[C4 width=@v31]
+6
+[C5 width=@v32]
+否
+[C6 width=@v33]
+PK,FK
+
+[R3]
+[C1 width=@v28]
+LibaryCardNum
+[C2 width=@v29]
+借书证号
+[C3 width=@v30]
+varchar
+[C4 width=@v31]
+6
+[C5 width=@v32]
+FK
+[C6 width=@v33]
+否
+
+[R4]
+[C1 width=@v28]
+AssetsNo
+[C2 width=@v29]
+图书财产号
+[C3 width=@v30]
+varchar
+[C4 width=@v31]
+6
+[C5 width=@v32]
+FK
+[C6 width=@v33]
+否
+
+[R5]
+[C1 width=@v28]
+LendingDate
+[C2 width=@v29]
+借阅日期
+[C3 width=@v30]
+datetime
+[C4 width=@v31]
+<empty/>
+[C5 width=@v32]
+否
+[C6 width=@v33]
+<empty/>
+
+[R6]
+[C1 width=@v28]
+DueDate
+[C2 width=@v29]
+归还日期
+[C3 width=@v30]
+datetime
+[C4 width=@v31]
+<empty/>
+[C5 width=@v32]
+否
+[C6 width=@v33]
+<empty/>
+
+[R7]
+[C1 width=@v28]
+RuleDueDate
+[C2 width=@v29]
+应还日期
+[C3 width=@v30]
+datetime
+[C4 width=@v31]
+<empty/>
+[C5 width=@v32]
+否
+[C6 width=@v33]
+<empty/>
+
+[R8]
+[C1 width=@v28]
+RenewNumber
+[C2 width=@v29]
+续借次数
+[C3 width=@v30]
+int
+[C4 width=@v31]
+<empty/>
+[C5 width=@v32]
+<empty/>
+[C6 width=@v33]
+<empty/>
+
+[R9]
+[C1 width=@v28]
+OperatorID
+[C2 width=@v29]
+操作员编号
+[C3 width=@v30]
+varchar
+[C4 width=@v31]
+10
+[C5 width=@v32]
+FK,否
+[C6 width=@v33]
+<empty/>
+
+[R10]
+[C1 width=@v28]
+Notes
+[C2 width=@v29]
+备注
+[C3 width=@v30]
+string
+[C4 width=@v31]
+<empty/>
+[C5 width=@v32]
+<empty/>
+[C6 width=@v33]
+<empty/>
+
+[T11 loc=190 grid=[{"w":"1618"},{"w":"1339"},{"w":"1367"},{"w":"1341"},{"w":"1340"},{"w":"1353"}]]
+
+[R1]
+[C1 width=@v34 valign="center"]
+字段名 
+[C2 width=@v35 valign="center"]
+意义 
+[C3 width=@v36 valign="center"]
+类型  
+[C4 width=@v30 valign="center"]
+长度
+[C5 width=@v37 valign="center"]
+ 空否 
+[C6 width=@v38 valign="center"]
+备注
+
+[R2]
+[C1 width=@v34 valign="center"]
+DiaryID 
+[C2 width=@v35 valign="center"]
+日志编号
+[C3 width=@v36 valign="center"]
+ Varchar
+[C4 width=@v30 valign="center"]
+ 6
+[C5 width=@v37 valign="center"]
+否
+[C6 width=@v38 valign="center"]
+ PK 
+
+[R3]
+[C1 width=@v34 valign="center"]
+OperateName 
+[C2 width=@v35 valign="center"]
+操作名称
+[C3 width=@v36 valign="center"]
+ Varchar
+[C4 width=@v30 valign="center"]
+ 16 
+[C5 width=@v37 valign="center"]
+否
+[C6 width=@v38 valign="center"]
+(“图书借阅”、“图书损坏赔偿”、“图书借阅过期处罚”、“图书归还”、“图书续借”)
+
+[R4]
+[C1 width=@v34 valign="center"]
+OperatorID  
+[C2 width=@v35 valign="center"]
+操作员编号 
+[C3 width=@v36 valign="center"]
+Varchar
+[C4 width=@v30 valign="center"]
+ 6 
+[C5 width=@v37 valign="center"]
+否
+[C6 width=@v38 valign="center"]
+FK 
+
+[R5]
+[C1 width=@v34 valign="center"]
+OperateTime 
+[C2 width=@v35 valign="center"]
+操作时间
+[C3 width=@v36 valign="center"]
+ datetime 
+[C4 width=@v30 valign="center"]
+  
+[C5 width=@v37 valign="center"]
+否 
+[C6 width=@v38 valign="center"]
+<empty/>
+
+[R6]
+[C1 width=@v34 valign="center"]
+BookID 
+[C2 width=@v35 valign="center"]
+图书财产号
+[C3 width=@v36 valign="center"]
+ Varchar 
+[C4 width=@v30 valign="center"]
+6
+[C5 width=@v37 valign="center"]
+ 否 
+[C6 width=@v38 valign="center"]
+FK
+
+[R7]
+[C1 width=@v34 valign="center"]
+ReaderID 
+[C2 width=@v35 valign="center"]
+读者编号 
+[C3 width=@v36 valign="center"]
+Varchar 
+[C4 width=@v30 valign="center"]
+6 
+[C5 width=@v37 valign="center"]
+否 
+[C6 width=@v38 valign="center"]
+FK
+
+[R8]
+[C1 width=@v34 valign="center"]
+Notes 
+[C2 width=@v35 valign="center"]
+备注
+[C3 width=@v36 valign="center"]
+ string     
+[C4 width=@v30 valign="center"]
+<empty/>
+[C5 width=@v37 valign="center"]
+<empty/>
+[C6 width=@v38 valign="center"]
+<empty/>
+
+[T12 loc=192 grid=[{"w":"1764"},{"w":"1338"},{"w":"1369"},{"w":"1339"},{"w":"1339"},{"w":"1373"}]]
+
+[R1]
+[C1 width=@v22 valign="center"]
+字段名  
+[C2 width=@v22 valign="center"]
+意义 
+[C3 width=@v23 valign="center"]
+类型  
+[C4 width=@v23 valign="center"]
+长度
+[C5 width=@v23 valign="center"]
+空否  
+[C6 width=@v23 valign="center"]
+备注
+
+[R2]
+[C1 width=@v22 valign="center"]
+LibaryCardNum
+[C2 width=@v22 valign="center"]
+ 借阅证号
+[C3 width=@v23 valign="center"]
+ varchar
+[C4 width=@v23 valign="center"]
+ 6 
+[C5 width=@v23 valign="center"]
+否
+[C6 width=@v23 valign="center"]
+PK 
+
+[R3]
+[C1 width=@v22 valign="center"]
+ReaderID 
+[C2 width=@v22 valign="center"]
+读者编号 
+[C3 width=@v23 valign="center"]
+varchar 
+[C4 width=@v23 valign="center"]
+6
+[C5 width=@v23 valign="center"]
+ FK 
+[C6 width=@v23 valign="center"]
+否 
+
+[R4]
+[C1 width=@v22 valign="center"]
+ReaderKey  
+[C2 width=@v22 valign="center"]
+密码 
+[C3 width=@v23 valign="center"]
+varchar 
+[C4 width=@v23 valign="center"]
+20 
+[C5 width=@v23 valign="center"]
+否  
+[C6 width=@v23 valign="center"]
+大于 6 位，不能有中文
+
+[R5]
+[C1 width=@v22 valign="center"]
+ReaderStatus
+[C2 width=@v22 valign="center"]
+ 读者状态 
+[C3 width=@v23 valign="center"]
+char
+[C4 width=@v23 valign="center"]
+ 4 
+[C5 width=@v23 valign="center"]
+否 
+[C6 width=@v23 valign="center"]
+“正常”OR“挂失”
+
+[R6]
+[C1 width=@v22 valign="center"]
+RushDate 
+[C2 width=@v22 valign="center"]
+办证日期
+[C3 width=@v23 valign="center"]
+ datetime
+[C4 width=@v23 valign="center"]
+  
+[C5 width=@v23 valign="center"]
+否 
+[C6 width=@v23 valign="center"]
+<empty/>
+
+[R7]
+[C1 width=@v22 valign="center"]
+BorBooksNum
+[C2 width=@v22 valign="center"]
+已借图书数量
+[C3 width=@v23 valign="center"]
+Int 
+[C4 width=@v23 valign="center"]
+  
+[C5 width=@v23 valign="center"]
+否 
+[C6 width=@v23 valign="center"]
+大于 0 小于 10
+
+[R8]
+[C1 width=@v22 valign="center"]
+Notes 
+[C2 width=@v22 valign="center"]
+备注
+[C3 width=@v23 valign="center"]
+ string   
+[C4 width=@v23 valign="center"]
+<empty/>
+[C5 width=@v23 valign="center"]
+<empty/>
+[C6 width=@v23 valign="center"]
+<empty/>
+
+[T13 loc=195 grid=[{"w":"1755"},{"w":"1356"},{"w":"1366"},{"w":"1346"},{"w":"1346"},{"w":"1353"}]]
+
+[R1]
+[C1 width=@v22 valign="center"]
+字段名
+[C2 width=@v22 valign="center"]
+ 意义 
+[C3 width=@v23 valign="center"]
+类型  
+[C4 width=@v23 valign="center"]
+长度  
+[C5 width=@v23 valign="center"]
+空否 
+[C6 width=@v23 valign="center"]
+备注
+
+[R2]
+[C1 width=@v22 valign="center"]
+OperatorID 
+[C2 width=@v22 valign="center"]
+操作员编号 
+[C3 width=@v23 valign="center"]
+varchar 
+[C4 width=@v23 valign="center"]
+6 
+[C5 width=@v23 valign="center"]
+否
+[C6 width=@v23 valign="center"]
+PK 
+
+[R3]
+[C1 width=@v22 valign="center"]
+OperatorName
+[C2 width=@v22 valign="center"]
+ 操作员姓名 
+[C3 width=@v23 valign="center"]
+char 
+[C4 width=@v23 valign="center"]
+20 
+[C5 width=@v23 valign="center"]
+否 
+[C6 width=@v23 valign="center"]
+<empty/>
+
+[R4]
+[C1 width=@v22 valign="center"]
+OperatorPhone 
+[C2 width=@v22 valign="center"]
+操作员电话 
+[C3 width=@v23 valign="center"]
+varchar 
+[C4 width=@v23 valign="center"]
+13 
+[C5 width=@v23 valign="center"]
+否 
+[C6 width=@v23 valign="center"]
+为 8 位数字或 11 位数字
+
+[R5]
+[C1 width=@v22 valign="center"]
+OperatorEmail 
+[C2 width=@v22 valign="center"]
+操作员Email 
+[C3 width=@v23 valign="center"]
+Varchar 
+[C4 width=@v23 valign="center"]
+30 
+[C5 width=@v23 valign="center"]
+  
+[C6 width=@v23 valign="center"]
+含有“@”不能有中文
+
+[R6]
+[C1 width=@v22 valign="center"]
+OperatorType 
+[C2 width=@v22 valign="center"]
+操作员类别 
+[C3 width=@v23 valign="center"]
+Varchar 
+[C4 width=@v23 valign="center"]
+10 
+[C5 width=@v23 valign="center"]
+否 
+[C6 width=@v23 valign="center"]
+<empty/>
+
+[R7]
+[C1 width=@v22 valign="center"]
+OperatorCode 
+[C2 width=@v22 valign="center"]
+操作员登录密码
+[C3 width=@v23 valign="center"]
+ Varchar
+[C4 width=@v23 valign="center"]
+ 20 
+[C5 width=@v23 valign="center"]
+否  
+[C6 width=@v23 valign="center"]
+大于 6 位
+
+[R8]
+[C1 width=@v22 valign="center"]
+Notes 
+[C2 width=@v22 valign="center"]
+备注 
+[C3 width=@v23 valign="center"]
+string   
+[C4 width=@v23 valign="center"]
+<empty/>
+[C5 width=@v23 valign="center"]
+<empty/>
+[C6 width=@v23 valign="center"]
+<empty/>

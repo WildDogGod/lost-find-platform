@@ -1,0 +1,1395 @@
+[
+ {
+  "i": 0,
+  "kind": "p",
+  "style": "Heading 1",
+  "text": "《软件工程》实验报告",
+  "img": false
+ },
+ {
+  "i": 1,
+  "kind": "p",
+  "style": "Subtitle",
+  "text": "实验一 可行性和需求分析 ",
+  "img": false
+ },
+ {
+  "i": 2,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "基本信息",
+  "img": false
+ },
+ {
+  "i": 3,
+  "kind": "p",
+  "style": "Normal",
+  "text": "小组号：2024级计算机科学与技术专业本科3班七组",
+  "img": false
+ },
+ {
+  "i": 4,
+  "kind": "p",
+  "style": "Normal",
+  "text": "组长：王艳丽",
+  "img": false
+ },
+ {
+  "i": 5,
+  "kind": "p",
+  "style": "Normal",
+  "text": "成员： 刘笑 付欣冉 范晓彤",
+  "img": false
+ },
+ {
+  "i": 6,
+  "kind": "p",
+  "style": "Normal",
+  "text": "班级：信息科学与工程学院计科24级本科3班",
+  "img": false
+ },
+ {
+  "i": 7,
+  "kind": "p",
+  "style": "Normal",
+  "text": "指导教师：韩丽花",
+  "img": false
+ },
+ {
+  "i": 8,
+  "kind": "p",
+  "style": "Normal",
+  "text": "实验地点：信息中心205",
+  "img": false
+ },
+ {
+  "i": 9,
+  "kind": "p",
+  "style": "Normal",
+  "text": "实验时间：2026年 9月 24 日   星期四 ",
+  "img": false
+ },
+ {
+  "i": 10,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "实验目的：",
+  "img": false
+ },
+ {
+  "i": 11,
+  "kind": "p",
+  "style": "我的正文",
+  "text": "确定课题，组成小组，合理分工。根据课题背景，进行项目的可行性分析；进行资料的搜索与查询，进行项目的功能分析，在此基础上完成系统的逻辑功能模型的建立,使同学们掌握结构化数据流分析技术。",
+  "img": false
+ },
+ {
+  "i": 12,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "实验内容：",
+  "img": false
+ },
+ {
+  "i": 13,
+  "kind": "p",
+  "style": "我的正文",
+  "text": "充分查阅相关资料，根据自己的兴趣和能力，自选题目或从给定的题目中选定一个课题。选定的课题将作为实验课题，贯穿始终。",
+  "img": false
+ },
+ {
+  "i": 14,
+  "kind": "p",
+  "style": "我的正文",
+  "text": "按照教材和课件所学，完成所选课题的可行性分析，主要从技术可行性上进行分析。",
+  "img": false
+ },
+ {
+  "i": 15,
+  "kind": "p",
+  "style": "我的正文",
+  "text": "阅读相关的国家有关软件开发的标准文档。",
+  "img": false
+ },
+ {
+  "i": 16,
+  "kind": "p",
+  "style": "我的正文",
+  "text": "学习软件开发小组的组织和管理，合理分工，将项目开发各阶段的任务明确，并熟悉相应的软件开发环境。采用结构化的软件开发技术、进行软件系统需求分析，得出系统得数据流图。",
+  "img": false
+ },
+ {
+  "i": 17,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "实验要求：",
+  "img": false
+ },
+ {
+  "i": 18,
+  "kind": "p",
+  "style": "我的正文",
+  "text": "\t综合利用Internet网和相关书籍，进行资料的搜索、查询，确定课题。完成技术可行性分析。",
+  "img": false
+ },
+ {
+  "i": 19,
+  "kind": "p",
+  "style": "Normal",
+  "text": "根据所选的课题，要求做到使用结构化数据流分析技术分析课题需求，写出详细的数据流图，E-R图和状态图，数据流图的基本处理的个数不得少与3个。",
+  "img": false
+ },
+ {
+  "i": 20,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "实验步骤：",
+  "img": false
+ },
+ {
+  "i": 21,
+  "kind": "p",
+  "style": "Normal",
+  "text": "1．综合利用Internet网和相关书籍进行查阅，完成题目的选定",
+  "img": false
+ },
+ {
+  "i": 22,
+  "kind": "p",
+  "style": "Normal",
+  "text": "2．了解课题的基本框架",
+  "img": false
+ },
+ {
+  "i": 23,
+  "kind": "p",
+  "style": "Normal",
+  "text": "3．分析和澄清问题的定义",
+  "img": false
+ },
+ {
+  "i": 24,
+  "kind": "p",
+  "style": "Normal",
+  "text": "4．各小组在组长的带领下进行项目的可行性和需求分析",
+  "img": false
+ },
+ {
+  "i": 25,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "组内评价与得分",
+  "img": false
+ },
+ {
+  "i": 26,
+  "kind": "t",
+  "rows": [
+   [
+    "优95",
+    "良85",
+    "中75",
+    "及格65",
+    "不及格30"
+   ],
+   [
+    "能够胜任小组管理者角色,把握可行性和需求分析阶段的管理过程，有效分析项目的经济可行性",
+    "能够发挥一定的管理作用,承担部分可行性和需求分析阶段的管理工作，有效分析项目的经济可行性",
+    "能够积极参与小组活动,融入可行性和需求分析阶段的管理过程，对项目经济可行性分析有比较深入的理解",
+    "能够跟随小组一起参与项目的可行性和需求分析阶段的管理过程，对经济可行性分析有基本的理解",
+    "不满足及格标准的基本要求"
+   ]
+  ]
+ },
+ {
+  "i": 27,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": false
+ },
+ {
+  "i": 28,
+  "kind": "t",
+  "rows": [
+   [
+    "学号",
+    "姓名",
+    "评价",
+    "评价原因"
+   ],
+   [
+    "202409020309",
+    "王艳丽",
+    "95",
+    "作为组长，负责整体任务的进度管理，报告的全面书写和整理，认真思考并分析了项目可行性与需求分析，绘制了系统结构图和E-R图，有效组织小组讨论。"
+   ],
+   [
+    "202409020308",
+    "刘笑",
+    "88",
+    "主动分担组长的工作，参与小组任务的管理，负责学习者用例图的绘制和前端功能需求分析，积极参与需求讨论并提出合理建议。"
+   ],
+   [
+    "202409020311",
+    "付欣冉",
+    "85",
+    "积极配合小组任务分配，完成自己负责的部分，包括数据流图的绘制和功能需求描述，认真整理系统性能需求和运行环境要求。"
+   ],
+   [
+    "202409020313",
+    "范晓彤",
+    "82",
+    "积极参与小组讨论，负责管理员用例图和学习复习流程图的绘制，收集整理参考资料，协助完成数据模型分析。"
+   ]
+  ]
+ },
+ {
+  "i": 29,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": false
+ },
+ {
+  "i": 30,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": false
+ },
+ {
+  "i": 31,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": false
+ },
+ {
+  "i": 32,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "附件1  软件可行性和需求分析文档",
+  "img": false
+ },
+ {
+  "i": 33,
+  "kind": "p",
+  "style": "Title",
+  "text": "基于艾宾浩斯曲线单词记忆平台需求规格说明书",
+  "img": false
+ },
+ {
+  "i": 34,
+  "kind": "p",
+  "style": "Heading 1",
+  "text": "1.引言",
+  "img": false
+ },
+ {
+  "i": 35,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "1.1 编写目的",
+  "img": false
+ },
+ {
+  "i": 36,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本文档是基于艾宾浩斯遗忘曲线的智能单词记忆平台（以下简称“本平台”）的需求规格说明书，旨在明确系统的功能需求、性能需求、数据需求和运行环境要求，为后续的系统设计、编码实现和测试验收提供依据。本文档的预期读者包括项目开发人员、测试人员、指导教师以及项目评审人员。",
+  "img": false
+ },
+ {
+  "i": 37,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "1.2 背景",
+  "img": false
+ },
+ {
+  "i": 38,
+  "kind": "p",
+  "style": "Normal",
+  "text": "随着全球化进程的加速和国际交流的日益频繁，英语学习已成为当代大学生和职场人士的重要需求。单词作为英语学习的基础，其记忆效率直接影响英语综合能力的提升。然而，传统的单词记忆方式存在记忆效率低、遗忘速度快、缺乏科学复习计划等问题，许多学习者花费大量时间却收效甚微。",
+  "img": false
+ },
+ {
+  "i": 39,
+  "kind": "p",
+  "style": "Normal",
+  "text": "德国心理学家艾宾浩斯（Hermann Ebbinghaus）通过实验发现了人类记忆的遗忘规律，即遗忘在学习之后立即开始，且遗忘的进程并不均匀——最初遗忘速度很快，以后逐渐缓慢。基于这一遗忘曲线理论，在遗忘临界点安排复习可以显著提高记忆保持率，这就是间隔重复（Spaced Repetition）学习法的核心思想。",
+  "img": false
+ },
+ {
+  "i": 40,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本项目旨在开发一个基于艾宾浩斯遗忘曲线的智能单词记忆平台，通过SM-2改进算法自动计算每个单词的最佳复习时间，为学习者提供个性化的学习计划和复习提醒，帮助学习者高效、科学地记忆单词。",
+  "img": false
+ },
+ {
+  "i": 41,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "1.3 定义",
+  "img": false
+ },
+ {
+  "i": 42,
+  "kind": "p",
+  "style": "Normal",
+  "text": "艾宾浩斯遗忘曲线：描述人类记忆遗忘规律的曲线，由德国心理学家艾宾浩斯提出，表明遗忘速度先快后慢。",
+  "img": false
+ },
+ {
+  "i": 43,
+  "kind": "p",
+  "style": "Normal",
+  "text": "SM-2算法：SuperMemo 2算法，一种基于间隔重复的记忆调度算法，根据用户对单词的记忆程度（忘记、模糊、记得、熟练）动态调整复习间隔。",
+  "img": false
+ },
+ {
+  "i": 44,
+  "kind": "p",
+  "style": "Normal",
+  "text": "间隔重复（Spaced Repetition）：一种学习技术，在遗忘临界点安排复习，以最小的复习次数达到长期记忆效果。",
+  "img": false
+ },
+ {
+  "i": 45,
+  "kind": "p",
+  "style": "Normal",
+  "text": "B/S架构：浏览器/服务器架构，用户通过浏览器访问系统，无需安装客户端。",
+  "img": false
+ },
+ {
+  "i": 46,
+  "kind": "p",
+  "style": "Normal",
+  "text": "词库：按考试类型或主题分类的单词集合，如四级词汇、六级词汇、考研词汇等。",
+  "img": false
+ },
+ {
+  "i": 47,
+  "kind": "p",
+  "style": "Normal",
+  "text": "错词本：自动收录学习者答错或标记为不熟悉的单词，提高这些单词的复习优先级。",
+  "img": false
+ },
+ {
+  "i": 48,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "1.4 参考资料",
+  "img": false
+ },
+ {
+  "i": 49,
+  "kind": "p",
+  "style": "Normal",
+  "text": "[1] Ebbinghaus H. Memory: A Contribution to Experimental Psychology[M]. New York: Dover Publications, 1964.",
+  "img": false
+ },
+ {
+  "i": 50,
+  "kind": "p",
+  "style": "Normal",
+  "text": "[2] 张海藩, 牟永敏. 软件工程导论（第6版）[M]. 北京: 清华大学出版社, 2013.",
+  "img": false
+ },
+ {
+  "i": 51,
+  "kind": "p",
+  "style": "Normal",
+  "text": "[3] 王珊, 萨师煊. 数据库系统概论（第5版）[M]. 北京: 高等教育出版社, 2014.",
+  "img": false
+ },
+ {
+  "i": 52,
+  "kind": "p",
+  "style": "Normal",
+  "text": "[4] Craig Walls. Spring Boot实战[M]. 北京: 人民邮电出版社, 2016.",
+  "img": false
+ },
+ {
+  "i": 53,
+  "kind": "p",
+  "style": "Normal",
+  "text": "[5] 尤雨溪. Vue.js设计与实现[M]. 北京: 人民邮电出版社, 2022.",
+  "img": false
+ },
+ {
+  "i": 54,
+  "kind": "p",
+  "style": "Normal",
+  "text": "[6] SuperMemo. SM-2 Algorithm Documentation[EB/OL]. https://www.supermemo.com, 2024.",
+  "img": false
+ },
+ {
+  "i": 55,
+  "kind": "p",
+  "style": "Normal",
+  "text": "[7] 教育部高等学校软件工程专业教学指导委员会. 软件工程专业规范[M]. 北京: 高等教育出版社, 2019.",
+  "img": false
+ },
+ {
+  "i": 56,
+  "kind": "p",
+  "style": "Heading 1",
+  "text": "2.任务概述",
+  "img": false
+ },
+ {
+  "i": 57,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "2.1 目标",
+  "img": false
+ },
+ {
+  "i": 58,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本平台的总体目标是为学习者提供一个科学、高效、个性化的单词记忆工具。具体目标包括：",
+  "img": false
+ },
+ {
+  "i": 59,
+  "kind": "p",
+  "style": "Normal",
+  "text": "1）实现基于艾宾浩斯遗忘曲线和SM-2改进算法的智能复习调度，自动计算每个单词的最佳复习时间点；",
+  "img": false
+ },
+ {
+  "i": 60,
+  "kind": "p",
+  "style": "Normal",
+  "text": "2）提供多种词库选择（四级、六级、考研、雅思、托福等），满足不同学习者的需求；",
+  "img": false
+ },
+ {
+  "i": 61,
+  "kind": "p",
+  "style": "Normal",
+  "text": "3）支持单词学习、复习测试、错词本管理等核心功能，形成“学习—复习—测试—统计”的完整学习闭环；",
+  "img": false
+ },
+ {
+  "i": 62,
+  "kind": "p",
+  "style": "Normal",
+  "text": "4）提供学习数据统计和可视化分析，帮助学习者了解自身学习进度和记忆状态；",
+  "img": false
+ },
+ {
+  "i": 63,
+  "kind": "p",
+  "style": "Normal",
+  "text": "5）采用B/S架构，支持多端访问，界面友好，操作简便；",
+  "img": false
+ },
+ {
+  "i": 64,
+  "kind": "p",
+  "style": "Normal",
+  "text": "6）系统具有良好的可扩展性和可维护性，便于后续功能升级。",
+  "img": false
+ },
+ {
+  "i": 65,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "2.2 用户特点",
+  "img": false
+ },
+ {
+  "i": 66,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本平台的用户分为两类：",
+  "img": false
+ },
+ {
+  "i": 67,
+  "kind": "p",
+  "style": "Normal",
+  "text": "1）学习者：主要为大学生和英语学习者，具有基本的计算机操作能力，熟悉浏览器使用。他们的核心需求是高效记忆单词，希望系统能够自动安排复习计划，提供多样化的练习方式，并能直观看到学习效果。学习者使用频度较高，通常每天使用15-30分钟。",
+  "img": false
+ },
+ {
+  "i": 68,
+  "kind": "p",
+  "style": "Normal",
+  "text": "2）管理员：负责系统的日常维护和管理，包括用户信息管理、词库内容维护、系统参数配置等。管理员需要具备一定的系统管理经验，使用频度较低，主要在需要维护时登录系统。",
+  "img": false
+ },
+ {
+  "i": 69,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "2.3 假定与约束",
+  "img": false
+ },
+ {
+  "i": 70,
+  "kind": "p",
+  "style": "Normal",
+  "text": "1）假定系统运行寿命为五年；",
+  "img": false
+ },
+ {
+  "i": 71,
+  "kind": "p",
+  "style": "Normal",
+  "text": "2）开发时间预定为4个月（含需求分析、设计、编码、测试和部署）；",
+  "img": false
+ },
+ {
+  "i": 72,
+  "kind": "p",
+  "style": "Normal",
+  "text": "3）系统运行环境限定如下：",
+  "img": false
+ },
+ {
+  "i": 73,
+  "kind": "p",
+  "style": "Normal",
+  "text": "操作系统：Linux（服务器端）、Windows/macOS（客户端）；",
+  "img": false
+ },
+ {
+  "i": 74,
+  "kind": "p",
+  "style": "Normal",
+  "text": "数据库：MySQL 8.0；",
+  "img": false
+ },
+ {
+  "i": 75,
+  "kind": "p",
+  "style": "Normal",
+  "text": "开发工具：IntelliJ IDEA、VS Code；",
+  "img": false
+ },
+ {
+  "i": 76,
+  "kind": "p",
+  "style": "Normal",
+  "text": "Web应用服务器：内嵌Tomcat（Spring Boot）；",
+  "img": false
+ },
+ {
+  "i": 77,
+  "kind": "p",
+  "style": "Normal",
+  "text": "浏览器：Chrome、Edge、Firefox等主流浏览器。",
+  "img": false
+ },
+ {
+  "i": 78,
+  "kind": "p",
+  "style": "Normal",
+  "text": "4）约束条件：项目为课程设计项目，开发团队为4名本科生，需在有限时间内完成核心功能。",
+  "img": false
+ },
+ {
+  "i": 79,
+  "kind": "p",
+  "style": "Heading 1",
+  "text": "3.可行性分析",
+  "img": false
+ },
+ {
+  "i": 80,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "3.1 技术可行性",
+  "img": false
+ },
+ {
+  "i": 81,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本平台采用成熟的B/S架构和主流技术栈，技术可行性高。",
+  "img": false
+ },
+ {
+  "i": 82,
+  "kind": "p",
+  "style": "Normal",
+  "text": "前端采用Vue3 + TypeScript + Vite + Element Plus技术栈。Vue3是当前最流行的前端框架之一，具有组件化开发、响应式数据绑定、虚拟DOM等特性，开发效率高；TypeScript提供类型安全，减少运行时错误；Element Plus提供丰富的UI组件库，可快速搭建美观的界面；ECharts用于学习数据的可视化展示。",
+  "img": false
+ },
+ {
+  "i": 83,
+  "kind": "p",
+  "style": "Normal",
+  "text": "后端采用Spring Boot 3 + Spring Security + JWT + MyBatis-Plus技术栈。Spring Boot是Java生态中最主流的企业级开发框架，简化了配置和部署；Spring Security + JWT实现安全认证和授权；MyBatis-Plus简化数据库操作，提高开发效率。",
+  "img": false
+ },
+ {
+  "i": 84,
+  "kind": "p",
+  "style": "Normal",
+  "text": "数据层采用MySQL 8.0 + Redis。MySQL作为关系型数据库存储用户、单词、学习记录等结构化数据；Redis作为缓存，存储会话信息和热点数据，提升系统响应速度。",
+  "img": false
+ },
+ {
+  "i": 85,
+  "kind": "p",
+  "style": "Normal",
+  "text": "记忆调度采用SM-2改进算法，该算法经过SuperMemo等产品长期验证，技术成熟可靠，且算法逻辑清晰，易于实现和调优。",
+  "img": false
+ },
+ {
+  "i": 86,
+  "kind": "p",
+  "style": "Normal",
+  "text": "开发团队成员均已学习Java程序设计、数据库原理、Web开发技术、软件工程等相关课程，具备相应的技术能力。综上，本项目在技术上完全可行。",
+  "img": false
+ },
+ {
+  "i": 87,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "3.2 经济可行性",
+  "img": false
+ },
+ {
+  "i": 88,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本平台为课程设计项目，开发过程中使用的软件工具均为免费开源软件（VS Code、IntelliJ IDEA社区版、MySQL社区版、Redis等），无需支付授权费用。服务器可使用校园实验室资源或免费云服务器套餐，部署成本极低。",
+  "img": false
+ },
+ {
+  "i": 89,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统上线后，学习者可免费使用，无需付费。平台不涉及复杂的硬件采购和维护费用，经济成本可控。从经济效益角度看，本平台能够帮助学习者提高单词记忆效率，节省学习时间，具有良好的社会效益和间接经济效益。综上，本项目在经济上可行。",
+  "img": false
+ },
+ {
+  "i": 90,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "3.3 操作可行性",
+  "img": false
+ },
+ {
+  "i": 91,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本平台采用B/S架构，用户只需通过浏览器即可访问，无需安装客户端软件，操作门槛低。界面设计遵循简洁易用原则，核心功能（选词库、学单词、复习、测试）操作步骤不超过3次点击，符合用户使用习惯。",
+  "img": false
+ },
+ {
+  "i": 92,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统提供清晰的导航和操作提示，学习者无需专门培训即可上手使用。管理员后台功能模块化，操作直观。同时，系统支持响应式布局，可在PC和移动设备上正常使用。综上，本项目在操作上可行。",
+  "img": false
+ },
+ {
+  "i": 93,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "3.4 时间可行性",
+  "img": false
+ },
+ {
+  "i": 94,
+  "kind": "p",
+  "style": "Normal",
+  "text": "项目开发周期为4个月，按照软件工程的开发流程，时间分配如下：",
+  "img": false
+ },
+ {
+  "i": 95,
+  "kind": "p",
+  "style": "Normal",
+  "text": "需求分析与可行性研究：2周；系统设计（概要设计+详细设计）：3周；编码实现：6周；系统测试：2周；部署与文档编写：1周。",
+  "img": false
+ },
+ {
+  "i": 96,
+  "kind": "p",
+  "style": "Normal",
+  "text": "团队4人分工明确，组长负责整体统筹和后端核心算法，其他成员分别负责前端开发、测试模块和数据整理。各阶段任务清晰，时间安排合理，能够在规定时间内完成核心功能开发。综上，本项目在时间上可行。",
+  "img": false
+ },
+ {
+  "i": 97,
+  "kind": "p",
+  "style": "Heading 1",
+  "text": "4.需求分析及建模",
+  "img": false
+ },
+ {
+  "i": 98,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "4.1 系统内部人员结构、组织及用户情况分析",
+  "img": false
+ },
+ {
+  "i": 99,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本平台的用户分为学习者和管理员两类，系统功能结构如图1所示。学习者是系统的主要使用者，可以进行注册登录、词库选择与学习、复习计划管理、测试与练习、错词本管理、学习数据统计等操作；管理员负责系统的维护和管理，可以进行用户信息管理、词库内容管理、系统参数配置、学习数据监控等操作。",
+  "img": false
+ },
+ {
+  "i": 100,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": true
+ },
+ {
+  "i": 101,
+  "kind": "p",
+  "style": "Normal",
+  "text": "图1 系统结构图",
+  "img": false
+ },
+ {
+  "i": 102,
+  "kind": "p",
+  "style": "Normal",
+  "text": "学习者用例如图2所示。学习者通过注册与登录用例进入系统，该用例包含个人信息设置；在词库选择与学习用例中，学习者可以选择不同词库并学习新词，系统展示单词的拼写、音标、释义和例句；复习计划管理用例根据艾宾浩斯算法自动生成每日复习任务，学习者按计划完成复习；测试与练习用例包含错词本管理，对掌握不牢的单词进行强化练习，提供选择题、拼写题、听音辨词、词义匹配四种题型；学习数据统计用例以图表形式展示学习进度、记忆保持率和个人遗忘曲线；复习提醒设置用例允许学习者自定义提醒方式和时间。",
+  "img": false
+ },
+ {
+  "i": 103,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": true
+ },
+ {
+  "i": 104,
+  "kind": "p",
+  "style": "Normal",
+  "text": "图2 学习者用例图",
+  "img": false
+ },
+ {
+  "i": 105,
+  "kind": "p",
+  "style": "Normal",
+  "text": "管理员用例如图3所示。管理员通过用户信息管理用例维护学习者账号，包括用户查询、禁用和密码重置；词库内容管理用例包含内容审核发布，负责单词数据的录入、修改和批量导入；系统参数配置用例用于调整复习算法参数（如初始复习间隔、难度因子）和系统设置；学习数据监控用例查看平台整体学习情况和用户活跃度；复习算法调优用例用于根据学习数据优化SM-2算法参数。",
+  "img": false
+ },
+ {
+  "i": 106,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": true
+ },
+ {
+  "i": 107,
+  "kind": "p",
+  "style": "Normal",
+  "text": "图3 管理员用例图",
+  "img": false
+ },
+ {
+  "i": 108,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "4.2 功能需求",
+  "img": false
+ },
+ {
+  "i": 109,
+  "kind": "p",
+  "style": "Normal",
+  "text": "4.2.1 系统需求描述",
+  "img": false
+ },
+ {
+  "i": 110,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统为学习者提供服务：",
+  "img": false
+ },
+ {
+  "i": 111,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供用户注册与登录功能，支持账号密码登录，密码采用BCrypt加密存储。",
+  "img": false
+ },
+ {
+  "i": 112,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供多种词库选择，包括四级、六级、考研、雅思、托福等，学习者可切换词库。",
+  "img": false
+ },
+ {
+  "i": 113,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供单词学习功能，展示单词拼写、音标、释义和例句，支持发音播放。",
+  "img": false
+ },
+ {
+  "i": 114,
+  "kind": "p",
+  "style": "Normal",
+  "text": "基于艾宾浩斯遗忘曲线和SM-2算法自动生成复习计划，在最佳复习时间点推送复习任务。",
+  "img": false
+ },
+ {
+  "i": 115,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供多种测试题型（选择题、拼写题、听音辨词、词义匹配），巩固记忆效果。",
+  "img": false
+ },
+ {
+  "i": 116,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供错词本功能，自动收录答错的单词，提高复习优先级。",
+  "img": false
+ },
+ {
+  "i": 117,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供学习数据统计功能，以图表形式展示学习进度、记忆保持率和遗忘曲线。",
+  "img": false
+ },
+ {
+  "i": 118,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供复习提醒功能，支持浏览器通知和邮件提醒。",
+  "img": false
+ },
+ {
+  "i": 119,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统为管理员提供服务：",
+  "img": false
+ },
+ {
+  "i": 120,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供用户信息管理功能，包括用户查询、禁用和密码重置。",
+  "img": false
+ },
+ {
+  "i": 121,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供词库内容管理功能，包括单词的增删改查和批量导入。",
+  "img": false
+ },
+ {
+  "i": 122,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供系统参数配置功能，包括复习间隔参数、每日新词量上限等。",
+  "img": false
+ },
+ {
+  "i": 123,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供学习数据监控功能，查看平台用户活跃度和学习统计。",
+  "img": false
+ },
+ {
+  "i": 124,
+  "kind": "p",
+  "style": "Normal",
+  "text": "4.2.2 总体功能分析",
+  "img": false
+ },
+ {
+  "i": 125,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本平台的学习复习核心流程如图4所示。学习者首先选择词库并设置每日新词量，然后学习新词并记录学习时间；系统通过艾宾浩斯算法计算每个单词的复习时间点；当到达复习时间时，系统推送复习提醒并生成复习队列，学习者进行四种题型的复习测试后进行记忆度自评（忘记、模糊、记得、熟练）；系统根据自评结果更新遗忘曲线并调整复习间隔；若掌握度达标则完成当日学习，未达标则将单词加入错词本提高复习权重后继续复习。",
+  "img": false
+ },
+ {
+  "i": 126,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": true
+ },
+ {
+  "i": 127,
+  "kind": "p",
+  "style": "Normal",
+  "text": "图4 学习复习流程图",
+  "img": false
+ },
+ {
+  "i": 128,
+  "kind": "p",
+  "style": "Normal",
+  "text": "学习者向系统输入学习请求和复习反馈，系统输出复习计划和测试题；管理员向系统输入管理指令和词库数据，系统输出配置数据和统计报告。",
+  "img": false
+ },
+ {
+  "i": 129,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统的0层数据流图如图5所示，将系统分解为5个主要处理过程（基本处理个数为5，满足不少于3个的要求）：",
+  "img": false
+ },
+ {
+  "i": 130,
+  "kind": "p",
+  "style": "Normal",
+  "text": "P1用户管理：处理学习者的注册、登录和身份验证，读写D1用户信息数据存储。",
+  "img": false
+ },
+ {
+  "i": 131,
+  "kind": "p",
+  "style": "Normal",
+  "text": "P2词库与学习管理：管理词库数据和单词学习流程，读写D2词库数据，接收学习者的学习请求，将单词数据传递给P3。",
+  "img": false
+ },
+ {
+  "i": 132,
+  "kind": "p",
+  "style": "Normal",
+  "text": "P3复习调度与测试：基于SM-2算法计算复习时间点，生成复习队列和测试题，读写D3学习记录和D4复习计划，将测试结果反馈给P2，将复习数据传递给P4。",
+  "img": false
+ },
+ {
+  "i": 133,
+  "kind": "p",
+  "style": "Normal",
+  "text": "P4数据统计分析：分析学习记录，生成统计报告和遗忘曲线图表，输出给学习者。",
+  "img": false
+ },
+ {
+  "i": 134,
+  "kind": "p",
+  "style": "Normal",
+  "text": "P5系统配置管理：处理管理员的配置指令，更新系统参数。",
+  "img": false
+ },
+ {
+  "i": 135,
+  "kind": "p",
+  "style": "Normal",
+  "text": "数据存储包括D1用户信息、D2词库数据、D3学习记录和D4复习计划四个部分，各处理过程按需读写。P1与P2之间传递用户信息，P2与P3之间传递单词数据和测试结果，P3与P4之间传递复习数据，P4向学习者输出统计报告。",
+  "img": false
+ },
+ {
+  "i": 136,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": true
+ },
+ {
+  "i": 137,
+  "kind": "p",
+  "style": "Normal",
+  "text": "图5 0层数据流图",
+  "img": false
+ },
+ {
+  "i": 138,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "4.3 性能需求",
+  "img": false
+ },
+ {
+  "i": 139,
+  "kind": "p",
+  "style": "Normal",
+  "text": "为保证系统的良好用户体验，性能需求如下：",
+  "img": false
+ },
+ {
+  "i": 140,
+  "kind": "p",
+  "style": "Normal",
+  "text": "查询速度：单词查询和学习数据查询响应时间不超过3秒；",
+  "img": false
+ },
+ {
+  "i": 141,
+  "kind": "p",
+  "style": "Normal",
+  "text": "页面加载：首页和主要功能页面加载时间不超过2秒；",
+  "img": false
+ },
+ {
+  "i": 142,
+  "kind": "p",
+  "style": "Normal",
+  "text": "并发支持：系统支持至少100个用户同时在线使用；",
+  "img": false
+ },
+ {
+  "i": 143,
+  "kind": "p",
+  "style": "Normal",
+  "text": "可靠性：平均故障间隔时间不低于200小时，系统可用率不低于99%；",
+  "img": false
+ },
+ {
+  "i": 144,
+  "kind": "p",
+  "style": "Normal",
+  "text": "数据安全：用户密码采用BCrypt加密存储，传输过程采用HTTPS加密。",
+  "img": false
+ },
+ {
+  "i": 145,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "4.4 数据分析",
+  "img": false
+ },
+ {
+  "i": 146,
+  "kind": "p",
+  "style": "Normal",
+  "text": "4.4.1 数据模型(E-R图)",
+  "img": false
+ },
+ {
+  "i": 147,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本平台的核心数据实体包括用户、词库、单词、学习记录和复习计划，各实体之间的关系如图6所示。",
+  "img": false
+ },
+ {
+  "i": 148,
+  "kind": "p",
+  "style": "Normal",
+  "text": "",
+  "img": true
+ },
+ {
+  "i": 149,
+  "kind": "p",
+  "style": "Normal",
+  "text": "图6 E-R图",
+  "img": false
+ },
+ {
+  "i": 150,
+  "kind": "p",
+  "style": "Normal",
+  "text": "用户实体包含用户ID、用户名、密码等属性，一个用户可以拥有多条学习记录（1:N关系），也可以生成多个复习计划（1:N关系）。词库实体包含词库ID、词库名称、适用考试等属性，一个词库包含多个单词（1:N关系）。单词实体包含单词ID、拼写、音标、释义等属性，一个单词可以对应多条学习记录（1:N关系）。学习记录实体记录用户每次学习单词的时间和记忆度评分。复习计划实体根据学习记录生成，包含计划ID、复习时间、复习间隔等属性，与单词为多对多关系（一个复习计划包含多个单词，一个单词可出现在多个复习计划中）。",
+  "img": false
+ },
+ {
+  "i": 151,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "4.5 故障处理要求",
+  "img": false
+ },
+ {
+  "i": 152,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统应具备故障检测和恢复能力：",
+  "img": false
+ },
+ {
+  "i": 153,
+  "kind": "p",
+  "style": "Normal",
+  "text": "数据库定期备份，每日自动备份一次，备份数据保留至少30天；",
+  "img": false
+ },
+ {
+  "i": 154,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统故障恢复时间不超过2小时；",
+  "img": false
+ },
+ {
+  "i": 155,
+  "kind": "p",
+  "style": "Normal",
+  "text": "提供友好的错误提示页面，避免用户看到技术错误信息；",
+  "img": false
+ },
+ {
+  "i": 156,
+  "kind": "p",
+  "style": "Normal",
+  "text": "网络中断时，前端缓存当前学习进度，网络恢复后自动同步。",
+  "img": false
+ },
+ {
+  "i": 157,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "4.6 其他专门要求",
+  "img": false
+ },
+ {
+  "i": 158,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统界面应简洁美观，配色统一，符合现代Web应用设计规范；",
+  "img": false
+ },
+ {
+  "i": 159,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统应支持主流浏览器（Chrome、Edge、Firefox、Safari）的最新两个版本；",
+  "img": false
+ },
+ {
+  "i": 160,
+  "kind": "p",
+  "style": "Normal",
+  "text": "代码应遵循编码规范，注释完整，便于维护和扩展；",
+  "img": false
+ },
+ {
+  "i": 161,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统应具备良好的可扩展性，便于后续增加新词库和新功能模块。",
+  "img": false
+ },
+ {
+  "i": 162,
+  "kind": "p",
+  "style": "Heading 1",
+  "text": "5.运行环境规定",
+  "img": false
+ },
+ {
+  "i": 163,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "5.1 设备",
+  "img": false
+ },
+ {
+  "i": 164,
+  "kind": "p",
+  "style": "Normal",
+  "text": "服务器端：",
+  "img": false
+ },
+ {
+  "i": 165,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(1) 处理器（CPU）：4核及以上；",
+  "img": false
+ },
+ {
+  "i": 166,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(2) 内存容量（RAM）：至少4GB（推荐8GB）；",
+  "img": false
+ },
+ {
+  "i": 167,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(3) 硬盘空间：至少50GB可用空间。",
+  "img": false
+ },
+ {
+  "i": 168,
+  "kind": "p",
+  "style": "Normal",
+  "text": "客户端：",
+  "img": false
+ },
+ {
+  "i": 169,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(1) 处理器（CPU）：双核及以上；",
+  "img": false
+ },
+ {
+  "i": 170,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(2) 内存容量（RAM）：2GB及以上；",
+  "img": false
+ },
+ {
+  "i": 171,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(3) 显示器分辨率：1366×768及以上。",
+  "img": false
+ },
+ {
+  "i": 172,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "5.2 支持软件",
+  "img": false
+ },
+ {
+  "i": 173,
+  "kind": "p",
+  "style": "Normal",
+  "text": "服务器端：",
+  "img": false
+ },
+ {
+  "i": 174,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(1) 操作系统：Linux（Ubuntu 20.04/CentOS 7及以上），Windows7以上；",
+  "img": false
+ },
+ {
+  "i": 175,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(2) 数据库管理系统：MySQL 8.0；",
+  "img": false
+ },
+ {
+  "i": 176,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(3) 缓存：Redis 6.0及以上；",
+  "img": false
+ },
+ {
+  "i": 177,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(4) Web服务器：Nginx 1.18及以上（反向代理）；",
+  "img": false
+ },
+ {
+  "i": 178,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(5) Java运行环境：JDK 17；",
+  "img": false
+ },
+ {
+  "i": 179,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(6) 容器化：Docker 20.10及以上（可选）。",
+  "img": false
+ },
+ {
+  "i": 180,
+  "kind": "p",
+  "style": "Normal",
+  "text": "客户端：",
+  "img": false
+ },
+ {
+  "i": 181,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(1) 操作系统：Windows 10/macOS 11/Linux；",
+  "img": false
+ },
+ {
+  "i": 182,
+  "kind": "p",
+  "style": "Normal",
+  "text": "(2) 浏览器：Chrome 90+、Edge 90+、Firefox 88+、Safari 14+。",
+  "img": false
+ },
+ {
+  "i": 183,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "5.3 接口",
+  "img": false
+ },
+ {
+  "i": 184,
+  "kind": "p",
+  "style": "Normal",
+  "text": "1）硬件接口",
+  "img": false
+ },
+ {
+  "i": 185,
+  "kind": "p",
+  "style": "Normal",
+  "text": "系统运行在标准服务器硬件上，无需特殊硬件接口。考虑到数据备份需求，支持外接存储设备。",
+  "img": false
+ },
+ {
+  "i": 186,
+  "kind": "p",
+  "style": "Normal",
+  "text": "2）软件接口",
+  "img": false
+ },
+ {
+  "i": 187,
+  "kind": "p",
+  "style": "Normal",
+  "text": "数据库接口：通过MyBatis-Plus框架与MySQL数据库交互，使用JDBC连接；",
+  "img": false
+ },
+ {
+  "i": 188,
+  "kind": "p",
+  "style": "Normal",
+  "text": "缓存接口：通过Spring Data Redis与Redis缓存交互；",
+  "img": false
+ },
+ {
+  "i": 189,
+  "kind": "p",
+  "style": "Normal",
+  "text": "前端接口：前后端通过RESTful API进行数据交互，数据格式为JSON；",
+  "img": false
+ },
+ {
+  "i": 190,
+  "kind": "p",
+  "style": "Normal",
+  "text": "第三方接口：可接入邮件服务（SMTP）发送复习提醒邮件，接入浏览器Notification API推送桌面通知。",
+  "img": false
+ },
+ {
+  "i": 191,
+  "kind": "p",
+  "style": "Heading 2",
+  "text": "5.4 控制",
+  "img": false
+ },
+ {
+  "i": 192,
+  "kind": "p",
+  "style": "Normal",
+  "text": "本系统采用Spring Boot内嵌Tomcat服务器，通过Nginx反向代理对外提供服务。系统启动和停止通过脚本控制，支持优雅停机。用户访问控制通过Spring Security实现，不同角色（学习者、管理员）具有不同的操作权限。系统日志采用Logback框架记录，便于问题排查和系统监控。",
+  "img": false
+ }
+]

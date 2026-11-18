@@ -1,0 +1,2693 @@
+# Dimension 2: paragraph layout
+source: C:\Users\l15\xwechat_files\wxid_payc8vqwjywv22_d027\msg\file\2026-11\[模板]计科2班-x组-实验2-项目总体和详细设计.docx
+location_base: /word/document.xml/w:body/
+syntax: [P<n> ...] starts a paragraph; listed defaults apply when omitted; other missing attributes are unset/inherited; null overrides a default with unset/inherited.
+defaults: part="word/document.xml"
+definitions: @v1 spacing={"line":"240","lineRule":"auto"}; @v2 spacing={"before":"340","afterLines":"0","after":"330","line":"578","lineRule":"auto"}; @v3 numbering={"num_id":"11","level":"0"}; @v4 spacing={"before":"260","after":"260","line":"416","lineRule":"auto"}; @v5 numbering={"num_id":"11","level":"1"}; @v6 numbering={"num_id":"12","level":"0"}; @v7 numbering={"num_id":"11","level":"2"}; @v8 numbering={"num_id":"13","level":"0"}; @v9 indent={"left":"900","firstLineChars":"0","firstLine":"0"}; @v10 indent={"left":"420","firstLine":"480"}; @v11 indent={"firstLineChars":"0","firstLine":"0"}
+text_policy: full text is emitted without truncation.
+omitted: record_type=paragraph; repeated default values; xpath because it equals location; raw XML.
+normalized: loc is body[/row/cell/block] indexes relative to location_base; @v references definitions; line_spacing duplicates spacing.line; border XML is losslessly compacted by tag and attributes.
+
+[P1 section=1 loc=1 style="1"]
+《软件工程》实验报告
+
+[P2 section=1 loc=2 style="a5"]
+实验2 项目总体和详细设计
+
+[P3 section=1 loc=3 style="2"]
+基本信息
+
+[P4 section=1 loc=4]
+小组号：20xx级xx专业x班x组
+
+[P5 section=1 loc=5]
+组长：张鸿燕
+
+[P6 section=1 loc=6]
+成员： xxx  xxx  xxx
+
+[P7 section=1 loc=7]
+班级：信息科学与工程学院2018级计算机科学与技术3班
+
+[P8 section=1 loc=8]
+指导教师：刘鸣涛
+
+[P9 section=1 loc=9]
+实验地点：信息中心XXX
+
+[P10 section=1 loc=10]
+实验时间：20XX年 x月 x 日   星期x 
+
+[P11 section=1 loc=11 style="2"]
+实验目的：
+
+[P12 section=1 loc=12 style="a9" indent={"firstLine":"480"}]
+在实验2基础上完成系统的体系结构的建立，完成数据流图到软件结构图的转换，掌握结构化设计的基本概念与技术。掌握详细设计的基本方法，使用过程设计工具，完成模块的详细算法和数据结构。
+
+[P13 section=1 loc=13]
+<empty/>
+
+[P14 section=1 loc=14 style="2"]
+实验内容：
+
+[P15 section=1 loc=15 style="a9" indent={"firstLine":"480"}]
+进行模块化的系统设计，完成软件的结构设计。按软件设计的原则，精化、完善数据流图。判别数据流图的类型，并按相应的转换规则，将数据流图转换成软件结构图，完成项目的总体设计。
+
+[P16 section=1 loc=16 style="2"]
+实验要求：
+
+[P17 section=1 loc=17 style="a9" indent={"firstLine":"480"}]
+认真分析实验2的结果，完成数据流图到软件结构图的转换，得出系统的结构图，并进行精化优化，得到系统合理的体系结构。描绘系统结构图，并合理划分系统的各组成模块，模块数不少于四个。为后续的进行详细设计奠定基础。
+
+[P18 section=1 loc=18]
+根据项目概要设计，采用逐步求精的方法，进行模块程序的算法设计。
+
+[P19 section=1 loc=19 style="2"]
+实验步骤：
+
+[P20 section=1 loc=20]
+1．进行系统设计，（分清系统是事务型还是加工型）从数据流图出发设想完成系统功能的合理物理方案
+
+[P21 section=1 loc=21]
+2．软件结构设计，确定软件由哪些模块组成以及这些模块之间的动态调用关系。
+
+[P22 section=1 loc=22]
+3. 利用层次图和结构图描绘软件结构。
+
+[P23 section=1 loc=23]
+4. 优化得到的软件结构图
+
+[P24 section=1 loc=24]
+5. 上传软件结构图。
+
+[P25 section=1 loc=25]
+6．按照总体设计的结果，对各模块的功能进行进一步的分析。
+
+[P26 section=1 loc=26]
+7．利用程序流程图或盒图等详细设计的工具，对各模块进行初步的过程算法设计。
+
+[P27 section=1 loc=27]
+8. 完成过程的算法设计。
+
+[P28 section=1 loc=28]
+9. 完成主要模块的程序流程图或盒图并绘制该图（不少于2个模块）
+
+[P29 section=1 loc=29]
+10. 进行接口数据结构的设计
+
+[P30 section=1 loc=30]
+11. 完成界面设计
+
+[P31 section=1 loc=31 style="2"]
+组内评价与得分
+
+[P32 section=1 table=1 row=1 cell=1 loc=32/1/1/2]
+优95
+
+[P33 section=1 table=1 row=1 cell=2 loc=32/1/2/2]
+良85
+
+[P34 section=1 table=1 row=1 cell=3 loc=32/1/3/2]
+中75
+
+[P35 section=1 table=1 row=1 cell=4 loc=32/1/4/2]
+及格65
+
+[P36 section=1 table=1 row=1 cell=5 loc=32/1/5/2]
+不及格30
+
+[P37 section=1 table=1 row=2 cell=1 loc=32/2/1/2]
+<empty/>
+
+[P38 section=1 table=1 row=2 cell=2 loc=32/2/2/2]
+<empty/>
+
+[P39 section=1 table=1 row=2 cell=3 loc=32/2/3/2]
+<empty/>
+
+[P40 section=1 table=1 row=2 cell=4 loc=32/2/4/2]
+<empty/>
+
+[P41 section=1 table=1 row=2 cell=5 loc=32/2/5/2]
+<empty/>
+
+[P42 section=1 loc=33 align="left" spacing=@v1 widow=true]
+
+
+
+[P43 section=1 table=2 row=1 cell=1 loc=34/1/1/2 align="left" spacing=@v1 widow=true]
+学号
+
+[P44 section=1 table=2 row=1 cell=2 loc=34/1/2/2 align="left" spacing=@v1 widow=true]
+姓名
+
+[P45 section=1 table=2 row=1 cell=3 loc=34/1/3/2 align="left" spacing=@v1 widow=true]
+评价
+
+[P46 section=1 table=2 row=1 cell=4 loc=34/1/4/2 align="left" spacing=@v1 widow=true]
+评价原因
+
+[P47 section=1 table=2 row=2 cell=1 loc=34/2/1/2 align="left" spacing=@v1 widow=true]
+0001
+
+[P48 section=1 table=2 row=2 cell=2 loc=34/2/2/2 align="left" spacing=@v1 widow=true]
+周杰伦
+
+[P49 section=1 table=2 row=2 cell=3 loc=34/2/3/2 align="left" spacing=@v1 widow=true]
+85
+
+[P50 section=1 table=2 row=2 cell=4 loc=34/2/4/2 align="left" spacing=@v1 widow=true]
+<empty/>
+
+[P51 section=1 table=2 row=3 cell=1 loc=34/3/1/2 align="left" spacing=@v1 widow=true]
+0002
+
+[P52 section=1 table=2 row=3 cell=2 loc=34/3/2/2 align="left" spacing=@v1 widow=true]
+朴树
+
+[P53 section=1 table=2 row=3 cell=3 loc=34/3/3/2 align="left" spacing=@v1 widow=true]
+95
+
+[P54 section=1 table=2 row=3 cell=4 loc=34/3/4/2 align="left" spacing=@v1 widow=true]
+<empty/>
+
+[P55 section=1 table=2 row=4 cell=1 loc=34/4/1/2 align="left" spacing=@v1 widow=true]
+0003
+
+[P56 section=1 table=2 row=4 cell=2 loc=34/4/2/2 align="left" spacing=@v1 widow=true]
+张三
+
+[P57 section=1 table=2 row=4 cell=3 loc=34/4/3/2 align="left" spacing=@v1 widow=true]
+30
+
+[P58 section=1 table=2 row=4 cell=4 loc=34/4/4/2 align="left" spacing=@v1 widow=true]
+<empty/>
+
+[P59 section=1 table=2 row=5 cell=1 loc=34/5/1/2 align="left" spacing=@v1 widow=true]
+0004
+
+[P60 section=1 table=2 row=5 cell=2 loc=34/5/2/2 align="left" spacing=@v1 widow=true]
+李四
+
+[P61 section=1 table=2 row=5 cell=3 loc=34/5/3/2 align="left" spacing=@v1 widow=true]
+75
+
+[P62 section=1 table=2 row=5 cell=4 loc=34/5/4/2 align="left" spacing=@v1 widow=true]
+<empty/>
+
+[P63 section=1 loc=35 align="left" spacing=@v1 widow=true]
+<empty/>
+
+[P64 section=1 loc=36 align="left" spacing=@v1 widow=true]
+
+
+
+[P65 section=1 loc=37 align="left" spacing=@v1 widow=true]
+<empty/>
+
+[P66 section=1 loc=38 style="2"]
+附件1  项目总体和详细设计文档
+
+[P67 section=1 loc=39 style="a8" special=[{"tag":"w:bookmarkStart","attrs":{"w:id":"0","w:name":"_GoBack"},"location":"/w:document/w:body/w:p[37]/w:bookmarkStart"},{"tag":"w:bookmarkEnd","attrs":{"w:id":"0"},"location":"/w:document/w:body/w:p[37]/w:bookmarkEnd"}]]
+大学图书馆管理系统设计文档
+
+[P68 section=1 loc=40 style="1" align="both" spacing=@v2 keep_next=true keep_lines=true widow=false numbering=@v3]
+引言
+
+[P69 section=1 loc=41 style="a9" indent={"firstLine":"480"}]
+本说明书是结合对现有系统的调研结果,经过分析，给出对新软件系统的基本描述，本说明书相当于整个系统的总体设计说明书。
+
+[P70 section=1 loc=42 style="2" spacing=@v4 numbering=@v5]
+编写目的 
+
+[P71 section=1 loc=43 style="a9" indent={"firstLine":"480"}]
+结合之前对图书馆管理系统的需求分析，本说明书对这些功能需求进行详细说明，作为程序设计人员的参考依据。
+
+[P72 section=1 loc=44 style="2" spacing=@v4 numbering=@v5]
+背景
+
+[P73 section=1 loc=45 style="a9" indent={"firstLineChars":"0"} numbering=@v6]
+待开发的软件系统的名称：某高校图书管理系统
+
+[P74 section=1 loc=46 style="a9" indent={"firstLineChars":"0"} numbering=@v6]
+本项目的任务提出者：某高等学校
+
+[P75 section=1 loc=47 style="a9" indent={"firstLineChars":"0"} numbering=@v6]
+本项目的任务开发者：软件工程平台课课题组
+
+[P76 section=1 loc=48 style="a9" indent={"firstLineChars":"0"} numbering=@v6]
+本项目的任务用户：图书馆管理人员,教师,学生
+
+[P77 section=1 loc=49 style="2" spacing=@v4 numbering=@v5]
+参考资料
+
+[P78 section=1 loc=50 style="a9" indent={"firstLine":"480"}]
+[1] 图书馆管理系统需求分析说明书
+
+[P79 section=1 loc=51 style="a9" indent={"firstLine":"480"}]
+[2] 王珊 萨师煊，数据库系统概论（第四版） ，高等教育出版社。
+
+[P80 section=1 loc=52 style="a9" indent={"firstLine":"480"}]
+[3] GB8567 国家标准，国家软件文档书写标准
+
+[P81 section=1 loc=53 style="a9" indent={"firstLine":"480"}]
+[4] 刘冰、赖涵等，软件工程实践教程。 
+
+[P82 section=1 loc=54 style="a9" indent={"firstLine":"480"}]
+[5] 中国图书法分类表
+
+[P83 section=1 loc=55 style="1" align="both" spacing=@v2 keep_next=true keep_lines=true widow=false numbering=@v3]
+系统总体设计
+
+[P84 section=1 loc=56 style="2" spacing=@v4 numbering=@v5]
+设计约束
+
+[P85 section=1 loc=57 style="3" numbering=@v7]
+本系统应遵循的标准和规范
+
+[P86 section=1 loc=58 style="a9" indent={"firstLine":"480"}]
+根据具体的系统描述遵循的标准和规范（编码规范、与其他系统集成规范、系统安全管理规范等）
+
+[P87 section=1 loc=59 style="3" numbering=@v7]
+软硬件运行环境约束
+
+[P88 section=1 loc=60 style="a9" indent={"firstLineChars":"0"} numbering={"num_id":"14","level":"0"}]
+硬件环境：
+
+[P89 section=1 loc=61 style="a9" indent={"left":"480","firstLineChars":"0","firstLine":"0"}]
+（1）服务器端
+
+[P90 section=1 loc=62 style="a9" indent={"firstLine":"480"}]
+主板：INTEL 5000P CHIPSET
+
+[P91 section=1 loc=63 style="a9" indent={"firstLine":"480"}]
+CPU： 4 核 XEON E5405（2.0G，12M 缓存，1333MHZ，可升级双处理器）
+
+[P92 section=1 loc=64 style="a9" indent={"firstLine":"480"}]
+内存：2G*2 FB-DIMM 667MHZ（最大支持 32G）
+
+[P93 section=1 loc=65 style="a9" indent={"firstLine":"480"}]
+硬盘：250G SATAII
+
+[P94 section=1 loc=66 style="a9" indent={"firstLine":"480"}]
+热插拔：选购
+
+[P95 section=1 loc=67 style="a9" indent={"firstLine":"480"}]
+电源：1U 450W（主动 PFC）
+
+[P96 section=1 loc=68 style="a9" indent={"firstLine":"480"}]
+（2）客户端
+
+[P97 section=1 loc=69 style="a9" indent={"firstLine":"480"}]
+普通PC
+
+[P98 section=1 loc=70 style="a9" indent={"firstLineChars":"0"} numbering={"num_id":"15","level":"0"}]
+软件环境：
+
+[P99 section=1 loc=71 style="a9" indent={"firstLine":"480"}]
+（1）服务器端
+
+[P100 section=1 loc=72 style="a9" indent={"firstLine":"480"}]
+操作系统：Windows Server2008（SP1）
+
+[P101 section=1 loc=73 style="a9" indent={"firstLine":"480"}]
+Web 服务器：Internet 信息服务(IIS)管理器
+
+[P102 section=1 loc=74 style="a9" indent={"firstLine":"480"}]
+数据库服务器：Microsoft SQL Server 2008 企业版
+
+[P103 section=1 loc=75 style="a9" indent={"firstLine":"480"}]
+浏览器：IE 8.0
+
+[P104 section=1 loc=76 style="a9" indent={"firstLine":"480"}]
+系统服务器运行环境：Microsoft .NET Framework SDK v3.5
+
+[P105 section=1 loc=77 style="a9" indent={"firstLine":"480"}]
+（2）客户端
+
+[P106 section=1 loc=78 style="a9" indent={"firstLine":"480"}]
+浏览器：Internet Explorer 8.0+
+
+[P107 section=1 loc=79 style="a9" indent={"firstLine":"480"}]
+分辨率：最佳运行效果 1024×768 像素
+
+[P108 section=1 loc=80 style="3" numbering=@v7]
+接口约束
+
+[P109 section=1 loc=81 style="a9" indent={"firstLine":"480"}]
+学校图书馆管理系统中人员数据，包括教师信息、学生信息。其中教师信息人事管理系统中存在，学生信息教务管理系统存在。在图书馆管理系统中借阅读者的数据包括教师和学生，要求这两部分数据从人事管理系统和教务管理系统中提取，需要跟相应系统进行数据通讯，通过直接访问数据库或 WebService 方式提取数据。
+
+[P110 section=1 loc=82 style="3" numbering=@v7]
+用户界面约束
+
+[P111 section=1 loc=83 style="a9" indent={"firstLineChars":"0"} numbering=@v8]
+窗口约束
+
+[P112 section=1 loc=84 style="a9" indent=@v9]
+窗口支持最小化和最大化或放大
+
+[P113 section=1 loc=85 style="a9" indent=@v9]
+窗口上的控件随着窗体的缩放而缩放
+
+[P114 section=1 loc=86 style="a9" indent=@v10]
+窗口的数据能够利用鼠标和键盘操作
+
+[P115 section=1 loc=87 style="a9" indent=@v10]
+窗口中按Tab键，移动聚焦按顺序移动。先从左至右，再从上到下
+
+[P116 section=1 loc=88 style="a9" indent=@v10]
+与正在进行的操作无关的按钮应该加以屏蔽
+
+[P117 section=1 loc=89 style="a9" indent=@v10]
+按钮大小要与界面的大小和空间协调
+
+[P118 section=1 loc=90 style="a9" indent={"firstLineChars":"0"} numbering=@v8]
+菜单约束
+
+[P119 section=1 loc=91 style="a9" indent=@v9]
+菜单项的顺序合理，具有逻辑关联的项目集中放置
+
+[P120 section=1 loc=92 style="a9" indent=@v9]
+菜单设置在窗体标题栏的下方
+
+[P121 section=1 loc=93 style="a9" indent={"firstLineChars":"0"} numbering=@v8]
+图标约束
+
+[P122 section=1 loc=94 style="a9" indent=@v9]
+选择合适的尺寸来定义图标。参考： 48×48， 32×32，24×24以及16×16
+
+[P123 section=1 loc=95 style="a9" indent=@v9]
+图标放置在菜单栏的下方
+
+[P124 section=1 loc=96 style="a9" indent=@v9]
+图标的外形与实际功能相似，应尽量避免抽象
+
+[P125 section=1 loc=97 style="a9" indent={"firstLineChars":"0"} numbering=@v8]
+兼容性约束
+
+[P126 section=1 loc=98 style="a9" indent=@v9]
+对常用浏览器兼容性良好，主要包含：IE8及以后版本，Chrome，FireFox等
+
+[P127 section=1 loc=99 style="2" spacing=@v4 numbering=@v5]
+系统功能结构
+
+[P128 section=1 loc=100 align="center" special=[{"tag":"w:object","attrs":{"w:dxaOrig":"11500","w:dyaOrig":"4591","w14:anchorId":"388C0F05"},"location":"/w:document/w:body/w:p[98]/w:r/w:object"}]]
+<empty/>
+
+[P129 section=1 loc=101 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P130 section=1 loc=102 style="2" spacing=@v4 numbering=@v5]
+系统部署结构
+
+[P131 section=1 loc=103 special=[{"tag":"w:object","attrs":{"w:dxaOrig":"13781","w:dyaOrig":"9221","w14:anchorId":"7028FAE5"},"location":"/w:document/w:body/w:p[101]/w:r/w:object"}]]
+<empty/>
+
+[P132 section=1 loc=104 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P133 section=1 loc=105 style="2" spacing=@v4 numbering=@v5]
+子系统描述
+
+[P134 section=1 loc=106 style="a9" indent={"firstLine":"480"}]
+子系统清单，如表所示。
+
+[P135 section=1 table=3 row=1 cell=1 loc=107/1/1/2]
+子系统编号  
+
+[P136 section=1 table=3 row=1 cell=2 loc=107/1/2/2]
+子系统名  
+
+[P137 section=1 table=3 row=1 cell=3 loc=107/1/3/2]
+子系统功能简述  
+
+[P138 section=1 table=3 row=1 cell=4 loc=107/1/4/2]
+子系统之间关系
+
+[P139 section=1 table=3 row=2 cell=1 loc=107/2/1/2]
+SS1
+
+[P140 section=1 table=3 row=2 cell=2 loc=107/2/2/2]
+LMS_Catalogue
+
+[P141 section=1 table=3 row=2 cell=2 loc=107/2/2/3]
+编目管理子系统
+
+[P142 section=1 table=3 row=2 cell=3 loc=107/2/3/2]
+编目时可以迅速查重
+
+[P143 section=1 table=3 row=2 cell=3 loc=107/2/3/3]
+对新种类的书进行图书信息登记
+
+[P144 section=1 table=3 row=2 cell=3 loc=107/2/3/4]
+对已存在种类的新书直接进行图书财产登记
+
+[P145 section=1 table=3 row=2 cell=3 loc=107/2/3/5]
+图书登记信息修改
+
+[P146 section=1 table=3 row=2 cell=4 loc=107/2/4/2]
+<empty/>
+
+[P147 section=1 table=3 row=3 cell=1 loc=107/3/1/2]
+SS2
+
+[P148 section=1 table=3 row=3 cell=2 loc=107/3/2/2]
+LMS_Circulation
+
+[P149 section=1 table=3 row=3 cell=2 loc=107/3/2/3]
+流通管理子系统
+
+[P150 section=1 table=3 row=3 cell=3 loc=107/3/3/2]
+进行借书管理
+
+[P151 section=1 table=3 row=3 cell=3 loc=107/3/3/3]
+进行还书管理
+
+[P152 section=1 table=3 row=3 cell=3 loc=107/3/3/4]
+进行续借管理
+
+[P153 section=1 table=3 row=3 cell=3 loc=107/3/3/5]
+当图书借阅时间到期后实现自动给读者发送电子邮件提醒其归还图书
+
+[P154 section=1 table=3 row=3 cell=4 loc=107/3/4/2]
+<empty/>
+
+[P155 section=1 table=3 row=4 cell=1 loc=107/4/1/2]
+SS3
+
+[P156 section=1 table=3 row=4 cell=2 loc=107/4/2/2]
+LMS_Search
+
+[P157 section=1 table=3 row=4 cell=2 loc=107/4/2/3]
+查询子系统
+
+[P158 section=1 table=3 row=4 cell=3 loc=107/4/3/2]
+根据读者选择的查询方式以及信息进行查书
+
+[P159 section=1 table=3 row=4 cell=3 loc=107/4/3/3]
+读者查询自己的借阅情况
+
+[P160 section=1 table=3 row=4 cell=3 loc=107/4/3/4]
+查询借某一本图书的读者信息实现可分时段查询
+
+[P161 section=1 table=3 row=4 cell=3 loc=107/4/3/5]
+查询某一类图书被借阅次数实现可分时段查询
+
+[P162 section=1 table=3 row=4 cell=3 loc=107/4/3/6]
+<empty/>
+
+[P163 section=1 table=3 row=4 cell=4 loc=107/4/4/2]
+<empty/>
+
+[P164 section=1 table=3 row=5 cell=1 loc=107/5/1/2]
+SS4
+
+[P165 section=1 table=3 row=5 cell=2 loc=107/5/2/2]
+LMS_ApplyLicense
+
+[P166 section=1 table=3 row=5 cell=2 loc=107/5/2/3]
+借阅证管理系统
+
+[P167 section=1 table=3 row=5 cell=3 loc=107/5/3/2]
+借阅证办理	
+
+[P168 section=1 table=3 row=5 cell=3 loc=107/5/3/3]
+借阅证挂失	
+
+[P169 section=1 table=3 row=5 cell=3 loc=107/5/3/4]
+借阅证补办
+
+[P170 section=1 table=3 row=5 cell=4 loc=107/5/4/2]
+<empty/>
+
+[P171 section=1 loc=108 style="2" spacing=@v4 numbering=@v5]
+功能模块详细描述
+
+[P172 section=1 loc=109 style="a9" indent={"firstLine":"480"}]
+各模块清单，如表所示
+
+[P173 section=1 table=4 row=1 cell=1 loc=110/1/1/2]
+模块编号
+
+[P174 section=1 table=4 row=1 cell=2 loc=110/1/2/2]
+模块名称
+
+[P175 section=1 table=4 row=1 cell=3 loc=110/1/3/2]
+子模块编号
+
+[P176 section=1 table=4 row=1 cell=4 loc=110/1/4/2]
+子模块英文名
+
+[P177 section=1 table=4 row=1 cell=5 loc=110/1/5/2]
+子模块功能简述
+
+[P178 section=1 table=4 row=2 cell=1 loc=110/2/1/2]
+M1
+
+[P179 section=1 table=4 row=2 cell=2 loc=110/2/2/2]
+新书编目
+
+[P180 section=1 table=4 row=2 cell=3 loc=110/2/3/2]
+M 1-1
+
+[P181 section=1 table=4 row=2 cell=4 loc=110/2/4/2]
+LMS_Cata_Recheck
+
+[P182 section=1 table=4 row=2 cell=5 loc=110/2/5/2]
+编目迅速查重
+
+[P183 section=1 table=4 row=3 cell=1 loc=110/3/1/2]
+M1
+
+[P184 section=1 table=4 row=3 cell=2 loc=110/3/2/2]
+新书编目
+
+[P185 section=1 table=4 row=3 cell=3 loc=110/3/3/2]
+M 1-2
+
+[P186 section=1 table=4 row=3 cell=4 loc=110/3/4/2]
+LMS_Cata_BookInfo
+
+[P187 section=1 table=4 row=3 cell=5 loc=110/3/5/2]
+对新种类的书进行图书信息登记
+
+[P188 section=1 table=4 row=4 cell=1 loc=110/4/1/2]
+M1
+
+[P189 section=1 table=4 row=4 cell=2 loc=110/4/2/2]
+新书编目
+
+[P190 section=1 table=4 row=4 cell=3 loc=110/4/3/2]
+M 1-3
+
+[P191 section=1 table=4 row=4 cell=4 loc=110/4/4/2]
+LMS_Cata_AssetInfo
+
+[P192 section=1 table=4 row=4 cell=5 loc=110/4/5/2]
+对已存在种类的新书直接进行图书财产登记
+
+[P193 section=1 table=4 row=5 cell=1 loc=110/5/1/2]
+M2
+
+[P194 section=1 table=4 row=5 cell=2 loc=110/5/2/2]
+图书信息修改
+
+[P195 section=1 table=4 row=5 cell=3 loc=110/5/3/2]
+M 2-1
+
+[P196 section=1 table=4 row=5 cell=4 loc=110/5/4/2]
+LMS_Cata_AlterBookInfo
+
+[P197 section=1 table=4 row=5 cell=5 loc=110/5/5/2]
+图书登记信息修改
+
+[P198 section=1 table=4 row=6 cell=1 loc=110/6/1/2]
+M3
+
+[P199 section=1 table=4 row=6 cell=2 loc=110/6/2/2]
+借书
+
+[P200 section=1 table=4 row=6 cell=3 loc=110/6/3/2]
+M 3-1
+
+[P201 section=1 table=4 row=6 cell=4 loc=110/6/4/2]
+LMS_Circ_Borrow
+
+[P202 section=1 table=4 row=6 cell=5 loc=110/6/5/2]
+进行借书管理
+
+[P203 section=1 table=4 row=7 cell=1 loc=110/7/1/2]
+M4
+
+[P204 section=1 table=4 row=7 cell=2 loc=110/7/2/2]
+还书
+
+[P205 section=1 table=4 row=7 cell=3 loc=110/7/3/2]
+M 4-1
+
+[P206 section=1 table=4 row=7 cell=4 loc=110/7/4/2]
+LMS_Circ_Return
+
+[P207 section=1 table=4 row=7 cell=5 loc=110/7/5/2]
+进行还书管理
+
+[P208 section=1 table=4 row=8 cell=1 loc=110/8/1/2]
+M5
+
+[P209 section=1 table=4 row=8 cell=2 loc=110/8/2/2]
+续借
+
+[P210 section=1 table=4 row=8 cell=3 loc=110/8/3/2]
+M 5-1
+
+[P211 section=1 table=4 row=8 cell=4 loc=110/8/4/2]
+LMS_Circ_Renew
+
+[P212 section=1 table=4 row=8 cell=5 loc=110/8/5/2]
+进行续借管理
+
+[P213 section=1 table=4 row=9 cell=1 loc=110/9/1/2]
+M6
+
+[P214 section=1 table=4 row=9 cell=2 loc=110/9/2/2]
+图书信息查询
+
+[P215 section=1 table=4 row=9 cell=3 loc=110/9/3/2]
+M 6-1
+
+[P216 section=1 table=4 row=9 cell=4 loc=110/9/4/2]
+LMS_Search_AssetsNO
+
+[P217 section=1 table=4 row=9 cell=5 loc=110/9/5/2]
+按财产号查询
+
+[P218 section=1 table=4 row=10 cell=1 loc=110/10/1/2]
+M6
+
+[P219 section=1 table=4 row=10 cell=2 loc=110/10/2/2]
+图书信息查询
+
+[P220 section=1 table=4 row=10 cell=3 loc=110/10/3/2]
+M 6-2
+
+[P221 section=1 table=4 row=10 cell=4 loc=110/10/4/2]
+LMS_Search_BookName
+
+[P222 section=1 table=4 row=10 cell=5 loc=110/10/5/2]
+按书名查询
+
+[P223 section=1 table=4 row=11 cell=1 loc=110/11/1/2]
+M6
+
+[P224 section=1 table=4 row=11 cell=2 loc=110/11/2/2]
+图书信息查询
+
+[P225 section=1 table=4 row=11 cell=3 loc=110/11/3/2]
+M 6-3
+
+[P226 section=1 table=4 row=11 cell=4 loc=110/11/4/2]
+LMS_Search_Author
+
+[P227 section=1 table=4 row=11 cell=5 loc=110/11/5/2]
+按作者查询
+
+[P228 section=1 table=4 row=12 cell=1 loc=110/12/1/2]
+M6
+
+[P229 section=1 table=4 row=12 cell=2 loc=110/12/2/2]
+图书信息查询
+
+[P230 section=1 table=4 row=12 cell=3 loc=110/12/3/2]
+M 6-4
+
+[P231 section=1 table=4 row=12 cell=4 loc=110/12/4/2]
+LMS_Search_Publisher
+
+[P232 section=1 table=4 row=12 cell=5 loc=110/12/5/2]
+按出版社查询
+
+[P233 section=1 table=4 row=13 cell=1 loc=110/13/1/2]
+M6
+
+[P234 section=1 table=4 row=13 cell=2 loc=110/13/2/2]
+图书信息查询
+
+[P235 section=1 table=4 row=13 cell=3 loc=110/13/3/2]
+M 6-5
+
+[P236 section=1 table=4 row=13 cell=4 loc=110/13/4/2]
+LMS_Search_SearchNO
+
+[P237 section=1 table=4 row=13 cell=5 loc=110/13/5/2]
+按索书号查询
+
+[P238 section=1 table=4 row=14 cell=1 loc=110/14/1/2]
+M7
+
+[P239 section=1 table=4 row=14 cell=2 loc=110/14/2/2]
+读者借阅情况查询
+
+[P240 section=1 table=4 row=14 cell=3 loc=110/14/3/2]
+M 7-1
+
+[P241 section=1 table=4 row=14 cell=4 loc=110/14/4/2]
+LMS_Search_ReaderBorrwedInfo
+
+[P242 section=1 table=4 row=14 cell=5 loc=110/14/5/2]
+读者查询自己的借阅情况
+
+[P243 section=1 table=4 row=15 cell=1 loc=110/15/1/2]
+M7
+
+[P244 section=1 table=4 row=15 cell=2 loc=110/15/2/2]
+读者借阅情况查询
+
+[P245 section=1 table=4 row=15 cell=3 loc=110/15/3/2]
+M 7-2
+
+[P246 section=1 table=4 row=15 cell=4 loc=110/15/4/2]
+LMS_Search_BookBorrowedReader
+
+[P247 section=1 table=4 row=15 cell=5 loc=110/15/5/2]
+查询借某一本图书的读者信息实现可分时查询
+
+[P248 section=1 table=4 row=16 cell=1 loc=110/16/1/2]
+M7
+
+[P249 section=1 table=4 row=16 cell=2 loc=110/16/2/2]
+读者借阅情况查询
+
+[P250 section=1 table=4 row=16 cell=3 loc=110/16/3/2]
+M 7-3
+
+[P251 section=1 table=4 row=16 cell=4 loc=110/16/4/2]
+LMS_Search_BookBorrowedTimes
+
+[P252 section=1 table=4 row=16 cell=5 loc=110/16/5/2]
+查询某一类图书被借阅次数实现可分时查询
+
+[P253 section=1 table=4 row=17 cell=1 loc=110/17/1/2]
+M8
+
+[P254 section=1 table=4 row=17 cell=2 loc=110/17/2/2]
+借阅证初办
+
+[P255 section=1 table=4 row=17 cell=3 loc=110/17/3/2]
+M 8-1
+
+[P256 section=1 table=4 row=17 cell=4 loc=110/17/4/2]
+LMS_ApplyLicense_Apply
+
+[P257 section=1 table=4 row=17 cell=5 loc=110/17/5/2]
+借阅证初办
+
+[P258 section=1 table=4 row=18 cell=1 loc=110/18/1/2]
+M9
+
+[P259 section=1 table=4 row=18 cell=2 loc=110/18/2/2]
+借阅证挂失
+
+[P260 section=1 table=4 row=18 cell=3 loc=110/18/3/2]
+M 9-1
+
+[P261 section=1 table=4 row=18 cell=4 loc=110/18/4/2]
+LMS_ApplyLicense_Loss
+
+[P262 section=1 table=4 row=18 cell=5 loc=110/18/5/2]
+借阅证挂失
+
+[P263 section=1 table=4 row=19 cell=1 loc=110/19/1/2]
+M10
+
+[P264 section=1 table=4 row=19 cell=2 loc=110/19/2/2]
+借阅证补办
+
+[P265 section=1 table=4 row=19 cell=3 loc=110/19/3/2]
+M 10-1
+
+[P266 section=1 table=4 row=19 cell=4 loc=110/19/4/2]
+LMS_ApplyLicense_Reapply
+
+[P267 section=1 table=4 row=19 cell=5 loc=110/19/5/2]
+借阅证补办
+
+[P268 section=1 loc=111 style="2" spacing=@v4 numbering=@v5]
+系统权限设置（System Permissions Settings）
+
+[P269 section=1 loc=112 style="a9" indent={"firstLine":"480"}]
+系统权限设置
+
+[P270 section=1 table=5 row=1 cell=1 loc=113/1/1/2]
+功能描述
+
+[P271 section=1 table=5 row=1 cell=2 loc=113/1/2/2]
+对应模块
+
+[P272 section=1 table=5 row=1 cell=3 loc=113/1/3/2]
+编目人员
+
+[P273 section=1 table=5 row=1 cell=4 loc=113/1/4/2]
+流通人员
+
+[P274 section=1 table=5 row=1 cell=5 loc=113/1/5/2]
+读者
+
+[P275 section=1 table=5 row=2 cell=1 loc=113/2/1/2]
+编目时可以迅速查重
+
+[P276 section=1 table=5 row=2 cell=2 loc=113/2/2/2]
+M1-1
+
+[P277 section=1 table=5 row=2 cell=3 loc=113/2/3/2]
+√
+
+[P278 section=1 table=5 row=2 cell=4 loc=113/2/4/2]
+<empty/>
+
+[P279 section=1 table=5 row=2 cell=5 loc=113/2/5/2]
+<empty/>
+
+[P280 section=1 table=5 row=3 cell=1 loc=113/3/1/2]
+对新种类的书进行图书信息登记
+
+[P281 section=1 table=5 row=3 cell=2 loc=113/3/2/2]
+M1-2
+
+[P282 section=1 table=5 row=3 cell=3 loc=113/3/3/2]
+√
+
+[P283 section=1 table=5 row=3 cell=4 loc=113/3/4/2]
+<empty/>
+
+[P284 section=1 table=5 row=3 cell=5 loc=113/3/5/2]
+<empty/>
+
+[P285 section=1 table=5 row=4 cell=1 loc=113/4/1/2]
+对已存在种类的新书直接进行图书财产登记
+
+[P286 section=1 table=5 row=4 cell=2 loc=113/4/2/2]
+M1-3
+
+[P287 section=1 table=5 row=4 cell=3 loc=113/4/3/2]
+√
+
+[P288 section=1 table=5 row=4 cell=4 loc=113/4/4/2]
+<empty/>
+
+[P289 section=1 table=5 row=4 cell=5 loc=113/4/5/2]
+<empty/>
+
+[P290 section=1 table=5 row=5 cell=1 loc=113/5/1/2]
+图书登记信息修改
+
+[P291 section=1 table=5 row=5 cell=2 loc=113/5/2/2]
+M2-1
+
+[P292 section=1 table=5 row=5 cell=3 loc=113/5/3/2]
+√
+
+[P293 section=1 table=5 row=5 cell=4 loc=113/5/4/2]
+<empty/>
+
+[P294 section=1 table=5 row=5 cell=5 loc=113/5/5/2]
+<empty/>
+
+[P295 section=1 table=5 row=6 cell=1 loc=113/6/1/2]
+进行借书管理
+
+[P296 section=1 table=5 row=6 cell=2 loc=113/6/2/2]
+M3-1
+
+[P297 section=1 table=5 row=6 cell=3 loc=113/6/3/2]
+<empty/>
+
+[P298 section=1 table=5 row=6 cell=4 loc=113/6/4/2]
+√
+
+[P299 section=1 table=5 row=6 cell=5 loc=113/6/5/2]
+<empty/>
+
+[P300 section=1 table=5 row=7 cell=1 loc=113/7/1/2]
+进行还书管理
+
+[P301 section=1 table=5 row=7 cell=2 loc=113/7/2/2]
+M4-1
+
+[P302 section=1 table=5 row=7 cell=3 loc=113/7/3/2]
+<empty/>
+
+[P303 section=1 table=5 row=7 cell=4 loc=113/7/4/2]
+√
+
+[P304 section=1 table=5 row=7 cell=5 loc=113/7/5/2]
+<empty/>
+
+[P305 section=1 table=5 row=8 cell=1 loc=113/8/1/2]
+进行续借管理
+
+[P306 section=1 table=5 row=8 cell=2 loc=113/8/2/2]
+M5-1
+
+[P307 section=1 table=5 row=8 cell=3 loc=113/8/3/2]
+<empty/>
+
+[P308 section=1 table=5 row=8 cell=4 loc=113/8/4/2]
+√
+
+[P309 section=1 table=5 row=8 cell=5 loc=113/8/5/2]
+<empty/>
+
+[P310 section=1 table=5 row=9 cell=1 loc=113/9/1/2]
+根据用户选择的查询方式以及信息进行查书
+
+[P311 section=1 table=5 row=9 cell=2 loc=113/9/2/2]
+M6-1、M6-2、M6-3、M6-4、M6-5
+
+[P312 section=1 table=5 row=9 cell=3 loc=113/9/3/2]
+√
+
+[P313 section=1 table=5 row=9 cell=4 loc=113/9/4/2]
+√
+
+[P314 section=1 table=5 row=9 cell=5 loc=113/9/5/2]
+√
+
+[P315 section=1 table=5 row=10 cell=1 loc=113/10/1/2]
+读者查询自己的借阅情况
+
+[P316 section=1 table=5 row=10 cell=2 loc=113/10/2/2]
+M7-1
+
+[P317 section=1 table=5 row=10 cell=3 loc=113/10/3/2]
+<empty/>
+
+[P318 section=1 table=5 row=10 cell=4 loc=113/10/4/2]
+<empty/>
+
+[P319 section=1 table=5 row=10 cell=5 loc=113/10/5/2]
+√
+
+[P320 section=1 table=5 row=11 cell=1 loc=113/11/1/2]
+查询借某一本图书的读者信息实现可分时段查询
+
+[P321 section=1 table=5 row=11 cell=2 loc=113/11/2/2]
+M7-2
+
+[P322 section=1 table=5 row=11 cell=3 loc=113/11/3/2]
+<empty/>
+
+[P323 section=1 table=5 row=11 cell=4 loc=113/11/4/2]
+√
+
+[P324 section=1 table=5 row=11 cell=5 loc=113/11/5/2]
+<empty/>
+
+[P325 section=1 table=5 row=12 cell=1 loc=113/12/1/2]
+查询某一类图书被借阅次数实现可分时段查询
+
+[P326 section=1 table=5 row=12 cell=2 loc=113/12/2/2]
+M7-3
+
+[P327 section=1 table=5 row=12 cell=3 loc=113/12/3/2]
+<empty/>
+
+[P328 section=1 table=5 row=12 cell=4 loc=113/12/4/2]
+√
+
+[P329 section=1 table=5 row=12 cell=5 loc=113/12/5/2]
+√
+
+[P330 section=1 table=5 row=13 cell=1 loc=113/13/1/2]
+借阅证办理
+
+[P331 section=1 table=5 row=13 cell=2 loc=113/13/2/2]
+M8-1
+
+[P332 section=1 table=5 row=13 cell=3 loc=113/13/3/2]
+<empty/>
+
+[P333 section=1 table=5 row=13 cell=4 loc=113/13/4/2]
+√
+
+[P334 section=1 table=5 row=13 cell=5 loc=113/13/5/2]
+<empty/>
+
+[P335 section=1 table=5 row=14 cell=1 loc=113/14/1/2]
+借阅证挂失
+
+[P336 section=1 table=5 row=14 cell=2 loc=113/14/2/2]
+M9-1
+
+[P337 section=1 table=5 row=14 cell=3 loc=113/14/3/2]
+<empty/>
+
+[P338 section=1 table=5 row=14 cell=4 loc=113/14/4/2]
+√
+
+[P339 section=1 table=5 row=14 cell=5 loc=113/14/5/2]
+<empty/>
+
+[P340 section=1 table=5 row=15 cell=1 loc=113/15/1/2]
+借阅证补办
+
+[P341 section=1 table=5 row=15 cell=2 loc=113/15/2/2]
+M10-1
+
+[P342 section=1 table=5 row=15 cell=3 loc=113/15/3/2]
+<empty/>
+
+[P343 section=1 table=5 row=15 cell=4 loc=113/15/4/2]
+√
+
+[P344 section=1 table=5 row=15 cell=5 loc=113/15/5/2]
+<empty/>
+
+[P345 section=1 loc=114 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P346 section=1 loc=115 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P347 section=1 loc=116 style="2" spacing=@v4 numbering=@v5]
+模块设计
+
+[P348 section=1 loc=117 style="3" numbering=@v7]
+编目管理子系统
+
+[P349 section=1 loc=118 style="a9" indent={"firstLine":"480"}]
+IPO 表
+
+[P350 section=1 loc=119 style="a9" align="center" indent={"firstLine":"480"} special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[114]/w:r/w:drawing"}]]
+<empty/>
+
+[P351 section=1 loc=120 style="a9" indent={"firstLine":"480"}]
+界面设计
+
+[P352 section=1 loc=121 style="a9" indent={"firstLine":"480"} special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[116]/w:r/w:drawing"}]]
+<empty/>
+
+[P353 section=1 loc=122 style="a9" indent={"firstLine":"480"} special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[117]/w:r/w:drawing"}]]
+<empty/>
+
+[P354 section=1 loc=123 style="a9" indent={"firstLine":"480"} special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[118]/w:r/w:drawing"}]]
+<empty/>
+
+[P355 section=1 loc=124 style="a9" align="center" indent={"firstLine":"480"} special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[119]/w:r/w:drawing"}]]
+<empty/>
+
+[P356 section=1 loc=125 style="a9" align="center" indent={"firstLine":"480"} special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[120]/w:r/w:drawing"}]]
+<empty/>
+
+[P357 section=1 loc=126 style="3" numbering=@v7]
+流通管理子系统
+
+[P358 section=1 loc=127 style="a9" indent={"firstLine":"480"}]
+1)   流通管理子系统  IPO 表
+
+[P359 section=1 loc=128 align="center" special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[123]/w:r/w:drawing"}]]
+<empty/>
+
+[P360 section=1 loc=129 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P361 section=1 loc=130 style="a9" indent={"firstLine":"480"}]
+1．借书模块
+
+[P362 section=1 loc=131 style="a9" indent={"firstLine":"480"}]
+借书模块 IPO 表
+
+[P363 section=1 loc=132 align="center" special=[{"tag":"w:object","attrs":{"w:dxaOrig":"6010","w:dyaOrig":"7060","w14:anchorId":"6F2E195A"},"location":"/w:document/w:body/w:p[127]/w:r/w:object"}]]
+<empty/>
+
+[P364 section=1 loc=133 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P365 section=1 loc=134 style="a9" indent={"firstLine":"480"}]
+借书模块 界面设计
+
+[P366 section=1 loc=135 align="center" special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[130]/w:r/w:drawing"}]]
+<empty/>
+
+[P367 section=1 loc=136 style="a9" indent={"firstLine":"480"}]
+2．还书
+
+[P368 section=1 loc=137 style="a9" indent={"firstLine":"480"}]
+IPO 表
+
+[P369 section=1 loc=138 style="a9" indent={"firstLine":"480"}]
+界面设计
+
+[P370 section=1 loc=139 style="a9" indent={"firstLine":"480"}]
+3．续借
+
+[P371 section=1 loc=140 style="a9" indent={"firstLine":"480"}]
+IPO 表
+
+[P372 section=1 loc=141 style="a9" indent={"firstLine":"480"}]
+界面设计
+
+[P373 section=1 loc=142 style="3" numbering=@v7]
+查询子系统
+
+[P374 section=1 loc=143 style="a9" indent={"firstLine":"480"}]
+IPO 图
+
+[P375 section=1 loc=144 style="a9" indent={"firstLine":"480"}]
+界面设计
+
+[P376 section=1 loc=145 style="3" numbering=@v7]
+办理借阅证子系统
+
+[P377 section=1 loc=146 style="a9" indent={"firstLine":"480"}]
+IPO 图
+
+[P378 section=1 loc=147 style="a9" indent={"firstLine":"480"}]
+界面设计
+
+[P379 section=1 loc=148 style="1" align="both" spacing=@v2 keep_next=true keep_lines=true widow=false numbering=@v3]
+模块详细设计
+
+[P380 section=1 loc=149 style="2" spacing=@v4 numbering=@v5]
+借书模块详细设计
+
+[P381 section=1 loc=150 style="3" numbering=@v7]
+借书模块功能描述
+
+[P382 section=1 loc=151 style="a9" indent={"firstLine":"480"}]
+用户填写图书借阅单交图书馆管理员，图书馆管理员审核后，输入计算机。首先校验借书证信息，查询用户信息和借阅证信息，确认读者合法若为合法读者（1），根据借阅证信息确认读者类别和借书册数，判断是否超过借阅册数（2），若超过借阅册数，借书失败；若没有超过借阅册数，查阅图书借阅明细、借书证信息、编目信息判断是否有超期未还的图书（3），有超期未还，借书失败。
+
+[P383 section=1 loc=152 style="a9" indent={"firstLine":"480"}]
+完成（1）、（2）、（3）条件判断符合借书条件，完成借书，进行借阅信息登记。
+
+[P384 section=1 loc=153 style="3" numbering=@v7]
+性能要求
+
+[P385 section=1 loc=154 style="a9" indent={"firstLine":"480"}]
+说明对该模块程序的全部性能要求，包括对精度、灵活性和时间特性的要求。
+
+[P386 section=1 loc=155 style="a9" indent={"firstLine":"480"}]
+数据流量： 1000 册 / 日 
+
+[P387 section=1 loc=156 style="a9" indent={"firstLine":"480"}]
+高峰流量： 5000 册 / 日
+
+[P388 section=1 loc=157 style="3" numbering=@v7]
+模块人机交互设计—界面设计
+
+[P389 section=1 loc=158 style="a9" indent={"firstLine":"480"} special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[153]/w:r/w:drawing"}]]
+<empty/>
+
+[P390 section=1 loc=159 style="3" numbering=@v7]
+输入项
+
+[P391 section=1 loc=160 style="a9" indent={"firstLine":"480"}]
+读者信、借书证条码、图书条码、读者的个别登记明细信息
+
+[P392 section=1 loc=161 style="3" numbering=@v7]
+输出项
+
+[P393 section=1 loc=162 style="a9" indent={"firstLine":"480"}]
+读者信息、读者个别登记明细信息
+
+[P394 section=1 loc=163 style="3" numbering=@v7]
+程序流程	
+
+[P395 section=1 loc=164 align="center" special=[{"tag":"w:object","attrs":{"w:dxaOrig":"5491","w:dyaOrig":"7680","w14:anchorId":"568F7CC4"},"location":"/w:document/w:body/w:p[159]/w:r/w:object"}]]
+<empty/>
+
+[P396 section=1 loc=165 style="1" align="both" spacing=@v2 keep_next=true keep_lines=true widow=false numbering=@v3]
+数据库设计
+
+[P397 section=1 loc=166 style="2" spacing=@v4 numbering=@v5]
+数据库环境说明
+
+[P398 section=1 loc=167 style="a9" indent={"firstLine":"480"}]
+采用的数据库系统、设计工具、编程工具、详细配置
+
+[P399 section=1 loc=168 style="a9" indent={"firstLine":"480"}]
+数据库系统：SQLSERVER 2008R2
+
+[P400 section=1 loc=169 style="a9" indent={"firstLine":"480"}]
+设计工具：Microsoft visio 
+
+[P401 section=1 loc=170 style="a9" indent={"firstLine":"480"}]
+编程工具：Visual Studio.NET 2008
+
+[P402 section=1 loc=171 style="2" spacing=@v4 numbering=@v5]
+数据库的命名规则
+
+[P403 section=1 loc=172 style="a9" indent={"firstLine":"480"}]
+为了统一和规范数据库命名、字段命名提出统一的规则和要求。
+
+[P404 section=1 loc=173 style="2" spacing=@v4 numbering=@v5]
+逻辑设计
+
+[P405 section=1 loc=174 style="a9" indent={"firstLine":"480"}]
+1） 数据库表名清单（DB Table List）
+
+[P406 section=1 loc=175 style="a9" indent={"firstLine":"480"}]
+数据库表名清单，如表 3-4 所示
+
+[P407 section=1 table=6 row=1 cell=1 loc=176/1/1/2]
+序号
+
+[P408 section=1 table=6 row=1 cell=2 loc=176/1/2/2]
+中文表名
+
+[P409 section=1 table=6 row=1 cell=3 loc=176/1/3/2]
+英文表名
+
+[P410 section=1 table=6 row=1 cell=4 loc=176/1/4/2]
+表功能说明
+
+[P411 section=1 table=6 row=2 cell=1 loc=176/2/1/2]
+1
+
+[P412 section=1 table=6 row=2 cell=2 loc=176/2/2/2]
+图书财产明细表
+
+[P413 section=1 table=6 row=2 cell=3 loc=176/2/3/2]
+Books_Assets
+
+[P414 section=1 table=6 row=2 cell=4 loc=176/2/4/2]
+记录每本书的相关信息
+
+[P415 section=1 table=6 row=3 cell=1 loc=176/3/1/2]
+2
+
+[P416 section=1 table=6 row=3 cell=2 loc=176/3/2/2]
+图书信息表
+
+[P417 section=1 table=6 row=3 cell=3 loc=176/3/3/2]
+Books_Information
+
+[P418 section=1 table=6 row=3 cell=4 loc=176/3/4/2]
+记录每类书的相关信息
+
+[P419 section=1 table=6 row=4 cell=1 loc=176/4/1/2]
+3
+
+[P420 section=1 table=6 row=4 cell=2 loc=176/4/2/2]
+借还书信息表
+
+[P421 section=1 table=6 row=4 cell=3 loc=176/4/3/2]
+BorrowReturn_Information
+
+[P422 section=1 table=6 row=4 cell=4 loc=176/4/4/2]
+记录借书，还书，续借的相关信息
+
+[P423 section=1 table=6 row=5 cell=1 loc=176/5/1/2]
+4
+
+[P424 section=1 table=6 row=5 cell=2 loc=176/5/2/2]
+操作日志
+
+[P425 section=1 table=6 row=5 cell=3 loc=176/5/3/2]
+OperateDiary
+
+[P426 section=1 table=6 row=5 cell=4 loc=176/5/4/2]
+记录“图书借阅”、“图书损坏赔偿”、“图书借阅过期处罚”、“图书归还”、“图书续借”时的操作信息
+
+[P427 section=1 table=6 row=6 cell=1 loc=176/6/1/2]
+5
+
+[P428 section=1 table=6 row=6 cell=2 loc=176/6/2/2]
+读者信息表
+
+[P429 section=1 table=6 row=6 cell=3 loc=176/6/3/2]
+Reader_Information
+
+[P430 section=1 table=6 row=6 cell=4 loc=176/6/4/2]
+记录读者的相关信息
+
+[P431 section=1 table=6 row=7 cell=1 loc=176/7/1/2]
+6
+
+[P432 section=1 table=6 row=7 cell=2 loc=176/7/2/2]
+借阅证信息表
+
+[P433 section=1 table=6 row=7 cell=3 loc=176/7/3/2]
+LibraryCard_Information
+
+[P434 section=1 table=6 row=7 cell=4 loc=176/7/4/2]
+记录读者的借阅证的相关信息
+
+[P435 section=1 table=6 row=8 cell=1 loc=176/8/1/2]
+7
+
+[P436 section=1 table=6 row=8 cell=2 loc=176/8/2/2]
+部门信息表
+
+[P437 section=1 table=6 row=8 cell=3 loc=176/8/3/2]
+Department_Information
+
+[P438 section=1 table=6 row=8 cell=4 loc=176/8/4/2]
+记录图书所存放部门的相关信息
+
+[P439 section=1 table=6 row=9 cell=1 loc=176/9/1/2]
+8
+
+[P440 section=1 table=6 row=9 cell=2 loc=176/9/2/2]
+操作员信息表
+
+[P441 section=1 table=6 row=9 cell=3 loc=176/9/3/2]
+Operator_Information
+
+[P442 section=1 table=6 row=9 cell=4 loc=176/9/4/2]
+记录编目员和操作员员的相关信息
+
+[P443 section=1 loc=177 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P444 section=1 loc=178 style="a9" indent={"firstLine":"480"}]
+2）数据库表的详细清单（Particular List of DB Table）
+
+[P445 section=1 loc=179 style="a9" indent={"firstLine":"480"}]
+读者信息表(Reader_Information):
+
+[P446 section=1 table=7 row=1 cell=1 loc=180/1/1/2]
+字段名
+
+[P447 section=1 table=7 row=1 cell=2 loc=180/1/2/2]
+说明
+
+[P448 section=1 table=7 row=1 cell=3 loc=180/1/3/2]
+类型
+
+[P449 section=1 table=7 row=1 cell=4 loc=180/1/4/2]
+长度
+
+[P450 section=1 table=7 row=1 cell=5 loc=180/1/5/2]
+可空
+
+[P451 section=1 table=7 row=1 cell=6 loc=180/1/6/2]
+备注
+
+[P452 section=1 table=7 row=2 cell=1 loc=180/2/1/2]
+ReaderId
+
+[P453 section=1 table=7 row=2 cell=2 loc=180/2/2/2]
+读者编号
+
+[P454 section=1 table=7 row=2 cell=3 loc=180/2/3/2]
+varchar
+
+[P455 section=1 table=7 row=2 cell=4 loc=180/2/4/2]
+6
+
+[P456 section=1 table=7 row=2 cell=5 loc=180/2/5/2]
+否
+
+[P457 section=1 table=7 row=2 cell=6 loc=180/2/6/2]
+PK
+
+[P458 section=1 table=7 row=3 cell=1 loc=180/3/1/2]
+ReaderName
+
+[P459 section=1 table=7 row=3 cell=2 loc=180/3/2/2]
+读者姓名
+
+[P460 section=1 table=7 row=3 cell=3 loc=180/3/3/2]
+char
+
+[P461 section=1 table=7 row=3 cell=4 loc=180/3/4/2]
+20
+
+[P462 section=1 table=7 row=3 cell=5 loc=180/3/5/2]
+否
+
+[P463 section=1 table=7 row=3 cell=6 loc=180/3/6/2]
+<empty/>
+
+[P464 section=1 table=7 row=4 cell=1 loc=180/4/1/2]
+ReaderSex
+
+[P465 section=1 table=7 row=4 cell=2 loc=180/4/2/2]
+性别
+
+[P466 section=1 table=7 row=4 cell=3 loc=180/4/3/2]
+char
+
+[P467 section=1 table=7 row=4 cell=4 loc=180/4/4/2]
+4
+
+[P468 section=1 table=7 row=4 cell=5 loc=180/4/5/2]
+否
+
+[P469 section=1 table=7 row=4 cell=6 loc=180/4/6/2]
+IN（“男”OR“女”）
+
+[P470 section=1 table=7 row=5 cell=1 loc=180/5/1/2]
+ReaderStyle
+
+[P471 section=1 table=7 row=5 cell=2 loc=180/5/2/2]
+读者类别
+
+[P472 section=1 table=7 row=5 cell=3 loc=180/5/3/2]
+varchar
+
+[P473 section=1 table=7 row=5 cell=4 loc=180/5/4/2]
+10
+
+[P474 section=1 table=7 row=5 cell=5 loc=180/5/5/2]
+<empty/>
+
+[P475 section=1 table=7 row=5 cell=6 loc=180/5/6/2]
+<empty/>
+
+[P476 section=1 table=7 row=6 cell=1 loc=180/6/1/2]
+ReaderBirthday
+
+[P477 section=1 table=7 row=6 cell=2 loc=180/6/2/2]
+出生日期
+
+[P478 section=1 table=7 row=6 cell=3 loc=180/6/3/2]
+datetime
+
+[P479 section=1 table=7 row=6 cell=4 loc=180/6/4/2]
+<empty/>
+
+[P480 section=1 table=7 row=6 cell=5 loc=180/6/5/2]
+<empty/>
+
+[P481 section=1 table=7 row=6 cell=6 loc=180/6/6/2]
+例2012-02-03
+
+[P482 section=1 table=7 row=7 cell=1 loc=180/7/1/2]
+ReaderOrganization
+
+[P483 section=1 table=7 row=7 cell=2 loc=180/7/2/2]
+单位
+
+[P484 section=1 table=7 row=7 cell=3 loc=180/7/3/2]
+string
+
+[P485 section=1 table=7 row=7 cell=4 loc=180/7/4/2]
+<empty/>
+
+[P486 section=1 table=7 row=7 cell=5 loc=180/7/5/2]
+<empty/>
+
+[P487 section=1 table=7 row=7 cell=6 loc=180/7/6/2]
+<empty/>
+
+[P488 section=1 table=7 row=8 cell=1 loc=180/8/1/2]
+CertificateStyle
+
+[P489 section=1 table=7 row=8 cell=2 loc=180/8/2/2]
+证件名称
+
+[P490 section=1 table=7 row=8 cell=3 loc=180/8/3/2]
+varchar
+
+[P491 section=1 table=7 row=8 cell=4 loc=180/8/4/2]
+10
+
+[P492 section=1 table=7 row=8 cell=5 loc=180/8/5/2]
+否
+
+[P493 section=1 table=7 row=8 cell=6 loc=180/8/6/2]
+IN("学生证"or"军官证"or"身份证")
+
+[P494 section=1 table=7 row=9 cell=1 loc=180/9/1/2]
+CertificateNum
+
+[P495 section=1 table=7 row=9 cell=2 loc=180/9/2/2]
+证件号码
+
+[P496 section=1 table=7 row=9 cell=3 loc=180/9/3/2]
+varchar
+
+[P497 section=1 table=7 row=9 cell=4 loc=180/9/4/2]
+20
+
+[P498 section=1 table=7 row=9 cell=5 loc=180/9/5/2]
+否
+
+[P499 section=1 table=7 row=9 cell=6 loc=180/9/6/2]
+<empty/>
+
+[P500 section=1 table=7 row=10 cell=1 loc=180/10/1/2]
+Address
+
+[P501 section=1 table=7 row=10 cell=2 loc=180/10/2/2]
+联系地址
+
+[P502 section=1 table=7 row=10 cell=3 loc=180/10/3/2]
+string
+
+[P503 section=1 table=7 row=10 cell=4 loc=180/10/4/2]
+<empty/>
+
+[P504 section=1 table=7 row=10 cell=5 loc=180/10/5/2]
+<empty/>
+
+[P505 section=1 table=7 row=10 cell=6 loc=180/10/6/2]
+<empty/>
+
+[P506 section=1 table=7 row=11 cell=1 loc=180/11/1/2]
+ReaderPhone
+
+[P507 section=1 table=7 row=11 cell=2 loc=180/11/2/2]
+联系电话
+
+[P508 section=1 table=7 row=11 cell=3 loc=180/11/3/2]
+varchar
+
+[P509 section=1 table=7 row=11 cell=4 loc=180/11/4/2]
+13
+
+[P510 section=1 table=7 row=11 cell=5 loc=180/11/5/2]
+否
+
+[P511 section=1 table=7 row=11 cell=6 loc=180/11/6/2]
+为8位数字或11位数字
+
+[P512 section=1 table=7 row=12 cell=1 loc=180/12/1/2]
+ReaderPostcode
+
+[P513 section=1 table=7 row=12 cell=2 loc=180/12/2/2]
+邮编
+
+[P514 section=1 table=7 row=12 cell=3 loc=180/12/3/2]
+char
+
+[P515 section=1 table=7 row=12 cell=4 loc=180/12/4/2]
+6
+
+[P516 section=1 table=7 row=12 cell=5 loc=180/12/5/2]
+<empty/>
+
+[P517 section=1 table=7 row=12 cell=6 loc=180/12/6/2]
+6位数字
+
+[P518 section=1 table=7 row=13 cell=1 loc=180/13/1/2]
+Notes
+
+[P519 section=1 table=7 row=13 cell=2 loc=180/13/2/2]
+备注
+
+[P520 section=1 table=7 row=13 cell=3 loc=180/13/3/2]
+string
+
+[P521 section=1 table=7 row=13 cell=4 loc=180/13/4/2]
+<empty/>
+
+[P522 section=1 table=7 row=13 cell=5 loc=180/13/5/2]
+<empty/>
+
+[P523 section=1 table=7 row=13 cell=6 loc=180/13/6/2]
+<empty/>
+
+[P524 section=1 loc=181 style="a9" indent={"firstLine":"480"}]
+图书信息表(Books_Information):
+
+[P525 section=1 table=8 row=1 cell=1 loc=182/1/1/2]
+字段名
+
+[P526 section=1 table=8 row=1 cell=2 loc=182/1/2/2]
+说明
+
+[P527 section=1 table=8 row=1 cell=3 loc=182/1/3/2]
+类型
+
+[P528 section=1 table=8 row=1 cell=4 loc=182/1/4/2]
+长度
+
+[P529 section=1 table=8 row=1 cell=5 loc=182/1/5/2]
+可空
+
+[P530 section=1 table=8 row=1 cell=6 loc=182/1/6/2]
+备注
+
+[P531 section=1 table=8 row=2 cell=1 loc=182/2/1/2]
+BookISBN
+
+[P532 section=1 table=8 row=2 cell=2 loc=182/2/2/2]
+ISBN
+
+[P533 section=1 table=8 row=2 cell=3 loc=182/2/3/2]
+varchar
+
+[P534 section=1 table=8 row=2 cell=4 loc=182/2/4/2]
+10
+
+[P535 section=1 table=8 row=2 cell=5 loc=182/2/5/2]
+否
+
+[P536 section=1 table=8 row=2 cell=6 loc=182/2/6/2]
+PK
+
+[P537 section=1 table=8 row=3 cell=1 loc=182/3/1/2]
+BookType
+
+[P538 section=1 table=8 row=3 cell=2 loc=182/3/2/2]
+图书名称
+
+[P539 section=1 table=8 row=3 cell=3 loc=182/3/3/2]
+Varchar
+
+[P540 section=1 table=8 row=3 cell=4 loc=182/3/4/2]
+20
+
+[P541 section=1 table=8 row=3 cell=5 loc=182/3/5/2]
+否
+
+[P542 section=1 table=8 row=3 cell=6 loc=182/3/6/2]
+<empty/>
+
+[P543 section=1 table=8 row=4 cell=1 loc=182/4/1/2]
+BookName
+
+[P544 section=1 table=8 row=4 cell=2 loc=182/4/2/2]
+图书类别
+
+[P545 section=1 table=8 row=4 cell=3 loc=182/4/3/2]
+char
+
+[P546 section=1 table=8 row=4 cell=4 loc=182/4/4/2]
+10
+
+[P547 section=1 table=8 row=4 cell=5 loc=182/4/5/2]
+否
+
+[P548 section=1 table=8 row=4 cell=6 loc=182/4/6/2]
+<empty/>
+
+[P549 section=1 table=8 row=5 cell=1 loc=182/5/1/2]
+CallNumber
+
+[P550 section=1 table=8 row=5 cell=2 loc=182/5/2/2]
+索书号
+
+[P551 section=1 table=8 row=5 cell=3 loc=182/5/3/2]
+char
+
+[P552 section=1 table=8 row=5 cell=4 loc=182/5/4/2]
+8
+
+[P553 section=1 table=8 row=5 cell=5 loc=182/5/5/2]
+否
+
+[P554 section=1 table=8 row=5 cell=6 loc=182/5/6/2]
+8位数字
+
+[P555 section=1 table=8 row=6 cell=1 loc=182/6/1/2]
+Author
+
+[P556 section=1 table=8 row=6 cell=2 loc=182/6/2/2]
+作者
+
+[P557 section=1 table=8 row=6 cell=3 loc=182/6/3/2]
+char
+
+[P558 section=1 table=8 row=6 cell=4 loc=182/6/4/2]
+10
+
+[P559 section=1 table=8 row=6 cell=5 loc=182/6/5/2]
+<empty/>
+
+[P560 section=1 table=8 row=6 cell=6 loc=182/6/6/2]
+<empty/>
+
+[P561 section=1 table=8 row=7 cell=1 loc=182/7/1/2]
+Translator
+
+[P562 section=1 table=8 row=7 cell=2 loc=182/7/2/2]
+译者
+
+[P563 section=1 table=8 row=7 cell=3 loc=182/7/3/2]
+char
+
+[P564 section=1 table=8 row=7 cell=4 loc=182/7/4/2]
+10
+
+[P565 section=1 table=8 row=7 cell=5 loc=182/7/5/2]
+<empty/>
+
+[P566 section=1 table=8 row=7 cell=6 loc=182/7/6/2]
+<empty/>
+
+[P567 section=1 table=8 row=8 cell=1 loc=182/8/1/2]
+Price
+
+[P568 section=1 table=8 row=8 cell=2 loc=182/8/2/2]
+单价
+
+[P569 section=1 table=8 row=8 cell=3 loc=182/8/3/2]
+float
+
+[P570 section=1 table=8 row=8 cell=4 loc=182/8/4/2]
+<empty/>
+
+[P571 section=1 table=8 row=8 cell=5 loc=182/8/5/2]
+<empty/>
+
+[P572 section=1 table=8 row=8 cell=6 loc=182/8/6/2]
+<empty/>
+
+[P573 section=1 table=8 row=9 cell=1 loc=182/9/1/2]
+PublisherNo
+
+[P574 section=1 table=8 row=9 cell=2 loc=182/9/2/2]
+出版社编号
+
+[P575 section=1 table=8 row=9 cell=3 loc=182/9/3/2]
+Varchar
+
+[P576 section=1 table=8 row=9 cell=4 loc=182/9/4/2]
+20
+
+[P577 section=1 table=8 row=9 cell=5 loc=182/9/5/2]
+否
+
+[P578 section=1 table=8 row=9 cell=6 loc=182/9/6/2]
+<empty/>
+
+[P579 section=1 table=8 row=10 cell=1 loc=182/10/1/2]
+PubDate
+
+[P580 section=1 table=8 row=10 cell=2 loc=182/10/2/2]
+出版时间
+
+[P581 section=1 table=8 row=10 cell=3 loc=182/10/3/2]
+Datetime
+
+[P582 section=1 table=8 row=10 cell=4 loc=182/10/4/2]
+<empty/>
+
+[P583 section=1 table=8 row=10 cell=5 loc=182/10/5/2]
+<empty/>
+
+[P584 section=1 table=8 row=10 cell=6 loc=182/10/6/2]
+<empty/>
+
+[P585 section=1 table=8 row=11 cell=1 loc=182/11/1/2]
+Quantity
+
+[P586 section=1 table=8 row=11 cell=2 loc=182/11/2/2]
+出版总数量
+
+[P587 section=1 table=8 row=11 cell=3 loc=182/11/3/2]
+int
+
+[P588 section=1 table=8 row=11 cell=4 loc=182/11/4/2]
+<empty/>
+
+[P589 section=1 table=8 row=11 cell=5 loc=182/11/5/2]
+<empty/>
+
+[P590 section=1 table=8 row=11 cell=6 loc=182/11/6/2]
+<empty/>
+
+[P591 section=1 table=8 row=12 cell=1 loc=182/12/1/2]
+CurrentStock
+
+[P592 section=1 table=8 row=12 cell=2 loc=182/12/2/2]
+现存量
+
+[P593 section=1 table=8 row=12 cell=3 loc=182/12/3/2]
+int
+
+[P594 section=1 table=8 row=12 cell=4 loc=182/12/4/2]
+<empty/>
+
+[P595 section=1 table=8 row=12 cell=5 loc=182/12/5/2]
+否
+
+[P596 section=1 table=8 row=12 cell=6 loc=182/12/6/2]
+<empty/>
+
+[P597 section=1 table=8 row=13 cell=1 loc=182/13/1/2]
+synopsis
+
+[P598 section=1 table=8 row=13 cell=2 loc=182/13/2/2]
+内容简介
+
+[P599 section=1 table=8 row=13 cell=3 loc=182/13/3/2]
+string
+
+[P600 section=1 table=8 row=13 cell=4 loc=182/13/4/2]
+<empty/>
+
+[P601 section=1 table=8 row=13 cell=5 loc=182/13/5/2]
+<empty/>
+
+[P602 section=1 table=8 row=13 cell=6 loc=182/13/6/2]
+<empty/>
+
+[P603 section=1 table=8 row=14 cell=1 loc=182/14/1/2]
+Notes
+
+[P604 section=1 table=8 row=14 cell=2 loc=182/14/2/2]
+备注
+
+[P605 section=1 table=8 row=14 cell=3 loc=182/14/3/2]
+string
+
+[P606 section=1 table=8 row=14 cell=4 loc=182/14/4/2]
+<empty/>
+
+[P607 section=1 table=8 row=14 cell=5 loc=182/14/5/2]
+<empty/>
+
+[P608 section=1 table=8 row=14 cell=6 loc=182/14/6/2]
+<empty/>
+
+[P609 section=1 loc=183 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P610 section=1 loc=184 style="a9" indent={"firstLine":"480"}]
+图书财产明细表(Books_Assets)：
+
+[P611 section=1 table=9 row=1 cell=1 loc=185/1/1/2]
+字段名
+
+[P612 section=1 table=9 row=1 cell=2 loc=185/1/2/2]
+意义
+
+[P613 section=1 table=9 row=1 cell=3 loc=185/1/3/2]
+类型
+
+[P614 section=1 table=9 row=1 cell=4 loc=185/1/4/2]
+长度
+
+[P615 section=1 table=9 row=1 cell=5 loc=185/1/5/2]
+可空
+
+[P616 section=1 table=9 row=1 cell=6 loc=185/1/6/2]
+备注
+
+[P617 section=1 table=9 row=2 cell=1 loc=185/2/1/2]
+AssetsNo
+
+[P618 section=1 table=9 row=2 cell=2 loc=185/2/2/2]
+财产号
+
+[P619 section=1 table=9 row=2 cell=3 loc=185/2/3/2]
+varchar
+
+[P620 section=1 table=9 row=2 cell=4 loc=185/2/4/2]
+6
+
+[P621 section=1 table=9 row=2 cell=5 loc=185/2/5/2]
+否
+
+[P622 section=1 table=9 row=2 cell=6 loc=185/2/6/2]
+PK
+
+[P623 section=1 table=9 row=3 cell=1 loc=185/3/1/2]
+BookISBN
+
+[P624 section=1 table=9 row=3 cell=2 loc=185/3/2/2]
+ISBN
+
+[P625 section=1 table=9 row=3 cell=3 loc=185/3/3/2]
+varchar
+
+[P626 section=1 table=9 row=3 cell=4 loc=185/3/4/2]
+10
+
+[P627 section=1 table=9 row=3 cell=5 loc=185/3/5/2]
+否
+
+[P628 section=1 table=9 row=3 cell=6 loc=185/3/6/2]
+FK
+
+[P629 section=1 table=9 row=4 cell=1 loc=185/4/1/2]
+Shelf
+
+[P630 section=1 table=9 row=4 cell=2 loc=185/4/2/2]
+图书位置
+
+[P631 section=1 table=9 row=4 cell=3 loc=185/4/3/2]
+char
+
+[P632 section=1 table=9 row=4 cell=4 loc=185/4/4/2]
+15
+
+[P633 section=1 table=9 row=4 cell=5 loc=185/4/5/2]
+否
+
+[P634 section=1 table=9 row=4 cell=6 loc=185/4/6/2]
+(“仓库”or“xx室书架”)
+
+[P635 section=1 table=9 row=5 cell=1 loc=185/5/1/2]
+BookStatus
+
+[P636 section=1 table=9 row=5 cell=2 loc=185/5/2/2]
+图书状态
+
+[P637 section=1 table=9 row=5 cell=3 loc=185/5/3/2]
+char
+
+[P638 section=1 table=9 row=5 cell=4 loc=185/5/4/2]
+6
+
+[P639 section=1 table=9 row=5 cell=5 loc=185/5/5/2]
+否
+
+[P640 section=1 table=9 row=5 cell=6 loc=185/5/6/2]
+“可借”or”不可借”or“丢失”or“损坏”
+
+[P641 section=1 table=9 row=6 cell=1 loc=185/6/1/2]
+LaidDate
+
+[P642 section=1 table=9 row=6 cell=2 loc=185/6/2/2]
+入库日期
+
+[P643 section=1 table=9 row=6 cell=3 loc=185/6/3/2]
+datetime
+
+[P644 section=1 table=9 row=6 cell=4 loc=185/6/4/2]
+否
+
+[P645 section=1 table=9 row=6 cell=5 loc=185/6/5/2]
+<empty/>
+
+[P646 section=1 table=9 row=6 cell=6 loc=185/6/6/2]
+<empty/>
+
+[P647 section=1 table=9 row=7 cell=1 loc=185/7/1/2]
+BorrowTimes
+
+[P648 section=1 table=9 row=7 cell=2 loc=185/7/2/2]
+借阅次数
+
+[P649 section=1 table=9 row=7 cell=3 loc=185/7/3/2]
+int
+
+[P650 section=1 table=9 row=7 cell=4 loc=185/7/4/2]
+否
+
+[P651 section=1 table=9 row=7 cell=5 loc=185/7/5/2]
+<empty/>
+
+[P652 section=1 table=9 row=7 cell=6 loc=185/7/6/2]
+<empty/>
+
+[P653 section=1 table=9 row=8 cell=1 loc=185/8/1/2]
+Notes
+
+[P654 section=1 table=9 row=8 cell=2 loc=185/8/2/2]
+备注
+
+[P655 section=1 table=9 row=8 cell=3 loc=185/8/3/2]
+string
+
+[P656 section=1 table=9 row=8 cell=4 loc=185/8/4/2]
+<empty/>
+
+[P657 section=1 table=9 row=8 cell=5 loc=185/8/5/2]
+<empty/>
+
+[P658 section=1 table=9 row=8 cell=6 loc=185/8/6/2]
+<empty/>
+
+[P659 section=1 loc=186 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P660 section=1 loc=187 style="a9" indent={"firstLine":"480"}]
+借还书信息表(Borrow&Return_Information):
+
+[P661 section=1 table=10 row=1 cell=1 loc=188/1/1/2]
+字段名
+
+[P662 section=1 table=10 row=1 cell=2 loc=188/1/2/2]
+意义
+
+[P663 section=1 table=10 row=1 cell=3 loc=188/1/3/2]
+类型
+
+[P664 section=1 table=10 row=1 cell=4 loc=188/1/4/2]
+长度
+
+[P665 section=1 table=10 row=1 cell=5 loc=188/1/5/2]
+空否
+
+[P666 section=1 table=10 row=1 cell=6 loc=188/1/6/2]
+备注
+
+[P667 section=1 table=10 row=2 cell=1 loc=188/2/1/2]
+InformationNum
+
+[P668 section=1 table=10 row=2 cell=2 loc=188/2/2/2]
+借书信息编号
+
+[P669 section=1 table=10 row=2 cell=3 loc=188/2/3/2]
+varhar
+
+[P670 section=1 table=10 row=2 cell=4 loc=188/2/4/2]
+6
+
+[P671 section=1 table=10 row=2 cell=5 loc=188/2/5/2]
+否
+
+[P672 section=1 table=10 row=2 cell=6 loc=188/2/6/2]
+PK,FK
+
+[P673 section=1 table=10 row=3 cell=1 loc=188/3/1/2]
+LibaryCardNum
+
+[P674 section=1 table=10 row=3 cell=2 loc=188/3/2/2]
+借书证号
+
+[P675 section=1 table=10 row=3 cell=3 loc=188/3/3/2]
+varchar
+
+[P676 section=1 table=10 row=3 cell=4 loc=188/3/4/2]
+6
+
+[P677 section=1 table=10 row=3 cell=5 loc=188/3/5/2]
+FK
+
+[P678 section=1 table=10 row=3 cell=6 loc=188/3/6/2]
+否
+
+[P679 section=1 table=10 row=4 cell=1 loc=188/4/1/2]
+AssetsNo
+
+[P680 section=1 table=10 row=4 cell=2 loc=188/4/2/2]
+图书财产号
+
+[P681 section=1 table=10 row=4 cell=3 loc=188/4/3/2]
+varchar
+
+[P682 section=1 table=10 row=4 cell=4 loc=188/4/4/2]
+6
+
+[P683 section=1 table=10 row=4 cell=5 loc=188/4/5/2]
+FK
+
+[P684 section=1 table=10 row=4 cell=6 loc=188/4/6/2]
+否
+
+[P685 section=1 table=10 row=5 cell=1 loc=188/5/1/2]
+LendingDate
+
+[P686 section=1 table=10 row=5 cell=2 loc=188/5/2/2]
+借阅日期
+
+[P687 section=1 table=10 row=5 cell=3 loc=188/5/3/2]
+datetime
+
+[P688 section=1 table=10 row=5 cell=4 loc=188/5/4/2]
+<empty/>
+
+[P689 section=1 table=10 row=5 cell=5 loc=188/5/5/2]
+否
+
+[P690 section=1 table=10 row=5 cell=6 loc=188/5/6/2]
+<empty/>
+
+[P691 section=1 table=10 row=6 cell=1 loc=188/6/1/2]
+DueDate
+
+[P692 section=1 table=10 row=6 cell=2 loc=188/6/2/2]
+归还日期
+
+[P693 section=1 table=10 row=6 cell=3 loc=188/6/3/2]
+datetime
+
+[P694 section=1 table=10 row=6 cell=4 loc=188/6/4/2]
+<empty/>
+
+[P695 section=1 table=10 row=6 cell=5 loc=188/6/5/2]
+否
+
+[P696 section=1 table=10 row=6 cell=6 loc=188/6/6/2]
+<empty/>
+
+[P697 section=1 table=10 row=7 cell=1 loc=188/7/1/2]
+RuleDueDate
+
+[P698 section=1 table=10 row=7 cell=2 loc=188/7/2/2]
+应还日期
+
+[P699 section=1 table=10 row=7 cell=3 loc=188/7/3/2]
+datetime
+
+[P700 section=1 table=10 row=7 cell=4 loc=188/7/4/2]
+<empty/>
+
+[P701 section=1 table=10 row=7 cell=5 loc=188/7/5/2]
+否
+
+[P702 section=1 table=10 row=7 cell=6 loc=188/7/6/2]
+<empty/>
+
+[P703 section=1 table=10 row=8 cell=1 loc=188/8/1/2]
+RenewNumber
+
+[P704 section=1 table=10 row=8 cell=2 loc=188/8/2/2]
+续借次数
+
+[P705 section=1 table=10 row=8 cell=3 loc=188/8/3/2]
+int
+
+[P706 section=1 table=10 row=8 cell=4 loc=188/8/4/2]
+<empty/>
+
+[P707 section=1 table=10 row=8 cell=5 loc=188/8/5/2]
+<empty/>
+
+[P708 section=1 table=10 row=8 cell=6 loc=188/8/6/2]
+<empty/>
+
+[P709 section=1 table=10 row=9 cell=1 loc=188/9/1/2]
+OperatorID
+
+[P710 section=1 table=10 row=9 cell=2 loc=188/9/2/2]
+操作员编号
+
+[P711 section=1 table=10 row=9 cell=3 loc=188/9/3/2]
+varchar
+
+[P712 section=1 table=10 row=9 cell=4 loc=188/9/4/2]
+10
+
+[P713 section=1 table=10 row=9 cell=5 loc=188/9/5/2]
+FK,否
+
+[P714 section=1 table=10 row=9 cell=6 loc=188/9/6/2]
+<empty/>
+
+[P715 section=1 table=10 row=10 cell=1 loc=188/10/1/2]
+Notes
+
+[P716 section=1 table=10 row=10 cell=2 loc=188/10/2/2]
+备注
+
+[P717 section=1 table=10 row=10 cell=3 loc=188/10/3/2]
+string
+
+[P718 section=1 table=10 row=10 cell=4 loc=188/10/4/2]
+<empty/>
+
+[P719 section=1 table=10 row=10 cell=5 loc=188/10/5/2]
+<empty/>
+
+[P720 section=1 table=10 row=10 cell=6 loc=188/10/6/2]
+<empty/>
+
+[P721 section=1 loc=189 style="a9" indent={"firstLine":"480"}]
+操作日志表(OperateDiary)：
+
+[P722 section=1 table=11 row=1 cell=1 loc=190/1/1/2]
+字段名 
+
+[P723 section=1 table=11 row=1 cell=2 loc=190/1/2/2]
+意义 
+
+[P724 section=1 table=11 row=1 cell=3 loc=190/1/3/2]
+类型  
+
+[P725 section=1 table=11 row=1 cell=4 loc=190/1/4/2]
+长度
+
+[P726 section=1 table=11 row=1 cell=5 loc=190/1/5/2]
+ 空否 
+
+[P727 section=1 table=11 row=1 cell=6 loc=190/1/6/2]
+备注
+
+[P728 section=1 table=11 row=2 cell=1 loc=190/2/1/2]
+DiaryID 
+
+[P729 section=1 table=11 row=2 cell=2 loc=190/2/2/2]
+日志编号
+
+[P730 section=1 table=11 row=2 cell=3 loc=190/2/3/2]
+ Varchar
+
+[P731 section=1 table=11 row=2 cell=4 loc=190/2/4/2]
+ 6
+
+[P732 section=1 table=11 row=2 cell=5 loc=190/2/5/2]
+否
+
+[P733 section=1 table=11 row=2 cell=6 loc=190/2/6/2]
+ PK 
+
+[P734 section=1 table=11 row=3 cell=1 loc=190/3/1/2]
+OperateName 
+
+[P735 section=1 table=11 row=3 cell=2 loc=190/3/2/2]
+操作名称
+
+[P736 section=1 table=11 row=3 cell=3 loc=190/3/3/2]
+ Varchar
+
+[P737 section=1 table=11 row=3 cell=4 loc=190/3/4/2]
+ 16 
+
+[P738 section=1 table=11 row=3 cell=5 loc=190/3/5/2]
+否
+
+[P739 section=1 table=11 row=3 cell=6 loc=190/3/6/2]
+(“图书借阅”、“图书损坏赔偿”、“图书借阅过期处罚”、“图书归还”、“图书续借”)
+
+[P740 section=1 table=11 row=4 cell=1 loc=190/4/1/2]
+OperatorID  
+
+[P741 section=1 table=11 row=4 cell=2 loc=190/4/2/2]
+操作员编号 
+
+[P742 section=1 table=11 row=4 cell=3 loc=190/4/3/2]
+Varchar
+
+[P743 section=1 table=11 row=4 cell=4 loc=190/4/4/2]
+ 6 
+
+[P744 section=1 table=11 row=4 cell=5 loc=190/4/5/2]
+否
+
+[P745 section=1 table=11 row=4 cell=6 loc=190/4/6/2]
+FK 
+
+[P746 section=1 table=11 row=5 cell=1 loc=190/5/1/2]
+OperateTime 
+
+[P747 section=1 table=11 row=5 cell=2 loc=190/5/2/2]
+操作时间
+
+[P748 section=1 table=11 row=5 cell=3 loc=190/5/3/2]
+ datetime 
+
+[P749 section=1 table=11 row=5 cell=4 loc=190/5/4/2]
+  
+
+[P750 section=1 table=11 row=5 cell=5 loc=190/5/5/2]
+否 
+
+[P751 section=1 table=11 row=5 cell=6 loc=190/5/6/2]
+<empty/>
+
+[P752 section=1 table=11 row=6 cell=1 loc=190/6/1/2]
+BookID 
+
+[P753 section=1 table=11 row=6 cell=2 loc=190/6/2/2]
+图书财产号
+
+[P754 section=1 table=11 row=6 cell=3 loc=190/6/3/2]
+ Varchar 
+
+[P755 section=1 table=11 row=6 cell=4 loc=190/6/4/2]
+6
+
+[P756 section=1 table=11 row=6 cell=5 loc=190/6/5/2]
+ 否 
+
+[P757 section=1 table=11 row=6 cell=6 loc=190/6/6/2]
+FK
+
+[P758 section=1 table=11 row=7 cell=1 loc=190/7/1/2]
+ReaderID 
+
+[P759 section=1 table=11 row=7 cell=2 loc=190/7/2/2]
+读者编号 
+
+[P760 section=1 table=11 row=7 cell=3 loc=190/7/3/2]
+Varchar 
+
+[P761 section=1 table=11 row=7 cell=4 loc=190/7/4/2]
+6 
+
+[P762 section=1 table=11 row=7 cell=5 loc=190/7/5/2]
+否 
+
+[P763 section=1 table=11 row=7 cell=6 loc=190/7/6/2]
+FK
+
+[P764 section=1 table=11 row=8 cell=1 loc=190/8/1/2]
+Notes 
+
+[P765 section=1 table=11 row=8 cell=2 loc=190/8/2/2]
+备注
+
+[P766 section=1 table=11 row=8 cell=3 loc=190/8/3/2]
+ string     
+
+[P767 section=1 table=11 row=8 cell=4 loc=190/8/4/2]
+<empty/>
+
+[P768 section=1 table=11 row=8 cell=5 loc=190/8/5/2]
+<empty/>
+
+[P769 section=1 table=11 row=8 cell=6 loc=190/8/6/2]
+<empty/>
+
+[P770 section=1 loc=191 style="a9" indent=@v11]
+借阅证信息表()：
+
+[P771 section=1 table=12 row=1 cell=1 loc=192/1/1/2]
+字段名  
+
+[P772 section=1 table=12 row=1 cell=2 loc=192/1/2/2]
+意义 
+
+[P773 section=1 table=12 row=1 cell=3 loc=192/1/3/2]
+类型  
+
+[P774 section=1 table=12 row=1 cell=4 loc=192/1/4/2]
+长度
+
+[P775 section=1 table=12 row=1 cell=5 loc=192/1/5/2]
+空否  
+
+[P776 section=1 table=12 row=1 cell=6 loc=192/1/6/2]
+备注
+
+[P777 section=1 table=12 row=2 cell=1 loc=192/2/1/2]
+LibaryCardNum
+
+[P778 section=1 table=12 row=2 cell=2 loc=192/2/2/2]
+ 借阅证号
+
+[P779 section=1 table=12 row=2 cell=3 loc=192/2/3/2]
+ varchar
+
+[P780 section=1 table=12 row=2 cell=4 loc=192/2/4/2]
+ 6 
+
+[P781 section=1 table=12 row=2 cell=5 loc=192/2/5/2]
+否
+
+[P782 section=1 table=12 row=2 cell=6 loc=192/2/6/2]
+PK 
+
+[P783 section=1 table=12 row=3 cell=1 loc=192/3/1/2]
+ReaderID 
+
+[P784 section=1 table=12 row=3 cell=2 loc=192/3/2/2]
+读者编号 
+
+[P785 section=1 table=12 row=3 cell=3 loc=192/3/3/2]
+varchar 
+
+[P786 section=1 table=12 row=3 cell=4 loc=192/3/4/2]
+6
+
+[P787 section=1 table=12 row=3 cell=5 loc=192/3/5/2]
+ FK 
+
+[P788 section=1 table=12 row=3 cell=6 loc=192/3/6/2]
+否 
+
+[P789 section=1 table=12 row=4 cell=1 loc=192/4/1/2]
+ReaderKey  
+
+[P790 section=1 table=12 row=4 cell=2 loc=192/4/2/2]
+密码 
+
+[P791 section=1 table=12 row=4 cell=3 loc=192/4/3/2]
+varchar 
+
+[P792 section=1 table=12 row=4 cell=4 loc=192/4/4/2]
+20 
+
+[P793 section=1 table=12 row=4 cell=5 loc=192/4/5/2]
+否  
+
+[P794 section=1 table=12 row=4 cell=6 loc=192/4/6/2]
+大于 6 位，不能有中文
+
+[P795 section=1 table=12 row=5 cell=1 loc=192/5/1/2]
+ReaderStatus
+
+[P796 section=1 table=12 row=5 cell=2 loc=192/5/2/2]
+ 读者状态 
+
+[P797 section=1 table=12 row=5 cell=3 loc=192/5/3/2]
+char
+
+[P798 section=1 table=12 row=5 cell=4 loc=192/5/4/2]
+ 4 
+
+[P799 section=1 table=12 row=5 cell=5 loc=192/5/5/2]
+否 
+
+[P800 section=1 table=12 row=5 cell=6 loc=192/5/6/2]
+“正常”OR“挂失”
+
+[P801 section=1 table=12 row=6 cell=1 loc=192/6/1/2]
+RushDate 
+
+[P802 section=1 table=12 row=6 cell=2 loc=192/6/2/2]
+办证日期
+
+[P803 section=1 table=12 row=6 cell=3 loc=192/6/3/2]
+ datetime
+
+[P804 section=1 table=12 row=6 cell=4 loc=192/6/4/2]
+  
+
+[P805 section=1 table=12 row=6 cell=5 loc=192/6/5/2]
+否 
+
+[P806 section=1 table=12 row=6 cell=6 loc=192/6/6/2]
+<empty/>
+
+[P807 section=1 table=12 row=7 cell=1 loc=192/7/1/2]
+BorBooksNum
+
+[P808 section=1 table=12 row=7 cell=2 loc=192/7/2/2]
+已借图书数量
+
+[P809 section=1 table=12 row=7 cell=3 loc=192/7/3/2]
+Int 
+
+[P810 section=1 table=12 row=7 cell=4 loc=192/7/4/2]
+  
+
+[P811 section=1 table=12 row=7 cell=5 loc=192/7/5/2]
+否 
+
+[P812 section=1 table=12 row=7 cell=6 loc=192/7/6/2]
+大于 0 小于 10
+
+[P813 section=1 table=12 row=8 cell=1 loc=192/8/1/2]
+Notes 
+
+[P814 section=1 table=12 row=8 cell=2 loc=192/8/2/2]
+备注
+
+[P815 section=1 table=12 row=8 cell=3 loc=192/8/3/2]
+ string   
+
+[P816 section=1 table=12 row=8 cell=4 loc=192/8/4/2]
+<empty/>
+
+[P817 section=1 table=12 row=8 cell=5 loc=192/8/5/2]
+<empty/>
+
+[P818 section=1 table=12 row=8 cell=6 loc=192/8/6/2]
+<empty/>
+
+[P819 section=1 loc=193 style="a9" indent=@v11]
+<empty/>
+
+[P820 section=1 loc=194 style="a9" indent=@v11]
+操作员信息表(Operator_Information):
+
+[P821 section=1 table=13 row=1 cell=1 loc=195/1/1/2]
+字段名
+
+[P822 section=1 table=13 row=1 cell=2 loc=195/1/2/2]
+ 意义 
+
+[P823 section=1 table=13 row=1 cell=3 loc=195/1/3/2]
+类型  
+
+[P824 section=1 table=13 row=1 cell=4 loc=195/1/4/2]
+长度  
+
+[P825 section=1 table=13 row=1 cell=5 loc=195/1/5/2]
+空否 
+
+[P826 section=1 table=13 row=1 cell=6 loc=195/1/6/2]
+备注
+
+[P827 section=1 table=13 row=2 cell=1 loc=195/2/1/2]
+OperatorID 
+
+[P828 section=1 table=13 row=2 cell=2 loc=195/2/2/2]
+操作员编号 
+
+[P829 section=1 table=13 row=2 cell=3 loc=195/2/3/2]
+varchar 
+
+[P830 section=1 table=13 row=2 cell=4 loc=195/2/4/2]
+6 
+
+[P831 section=1 table=13 row=2 cell=5 loc=195/2/5/2]
+否
+
+[P832 section=1 table=13 row=2 cell=6 loc=195/2/6/2]
+PK 
+
+[P833 section=1 table=13 row=3 cell=1 loc=195/3/1/2]
+OperatorName
+
+[P834 section=1 table=13 row=3 cell=2 loc=195/3/2/2]
+ 操作员姓名 
+
+[P835 section=1 table=13 row=3 cell=3 loc=195/3/3/2]
+char 
+
+[P836 section=1 table=13 row=3 cell=4 loc=195/3/4/2]
+20 
+
+[P837 section=1 table=13 row=3 cell=5 loc=195/3/5/2]
+否 
+
+[P838 section=1 table=13 row=3 cell=6 loc=195/3/6/2]
+<empty/>
+
+[P839 section=1 table=13 row=4 cell=1 loc=195/4/1/2]
+OperatorPhone 
+
+[P840 section=1 table=13 row=4 cell=2 loc=195/4/2/2]
+操作员电话 
+
+[P841 section=1 table=13 row=4 cell=3 loc=195/4/3/2]
+varchar 
+
+[P842 section=1 table=13 row=4 cell=4 loc=195/4/4/2]
+13 
+
+[P843 section=1 table=13 row=4 cell=5 loc=195/4/5/2]
+否 
+
+[P844 section=1 table=13 row=4 cell=6 loc=195/4/6/2]
+为 8 位数字或 11 位数字
+
+[P845 section=1 table=13 row=5 cell=1 loc=195/5/1/2]
+OperatorEmail 
+
+[P846 section=1 table=13 row=5 cell=2 loc=195/5/2/2]
+操作员Email 
+
+[P847 section=1 table=13 row=5 cell=3 loc=195/5/3/2]
+Varchar 
+
+[P848 section=1 table=13 row=5 cell=4 loc=195/5/4/2]
+30 
+
+[P849 section=1 table=13 row=5 cell=5 loc=195/5/5/2]
+  
+
+[P850 section=1 table=13 row=5 cell=6 loc=195/5/6/2]
+含有“@”不能有中文
+
+[P851 section=1 table=13 row=6 cell=1 loc=195/6/1/2]
+OperatorType 
+
+[P852 section=1 table=13 row=6 cell=2 loc=195/6/2/2]
+操作员类别 
+
+[P853 section=1 table=13 row=6 cell=3 loc=195/6/3/2]
+Varchar 
+
+[P854 section=1 table=13 row=6 cell=4 loc=195/6/4/2]
+10 
+
+[P855 section=1 table=13 row=6 cell=5 loc=195/6/5/2]
+否 
+
+[P856 section=1 table=13 row=6 cell=6 loc=195/6/6/2]
+<empty/>
+
+[P857 section=1 table=13 row=7 cell=1 loc=195/7/1/2]
+OperatorCode 
+
+[P858 section=1 table=13 row=7 cell=2 loc=195/7/2/2]
+操作员登录密码
+
+[P859 section=1 table=13 row=7 cell=3 loc=195/7/3/2]
+ Varchar
+
+[P860 section=1 table=13 row=7 cell=4 loc=195/7/4/2]
+ 20 
+
+[P861 section=1 table=13 row=7 cell=5 loc=195/7/5/2]
+否  
+
+[P862 section=1 table=13 row=7 cell=6 loc=195/7/6/2]
+大于 6 位
+
+[P863 section=1 table=13 row=8 cell=1 loc=195/8/1/2]
+Notes 
+
+[P864 section=1 table=13 row=8 cell=2 loc=195/8/2/2]
+备注 
+
+[P865 section=1 table=13 row=8 cell=3 loc=195/8/3/2]
+string   
+
+[P866 section=1 table=13 row=8 cell=4 loc=195/8/4/2]
+<empty/>
+
+[P867 section=1 table=13 row=8 cell=5 loc=195/8/5/2]
+<empty/>
+
+[P868 section=1 table=13 row=8 cell=6 loc=195/8/6/2]
+<empty/>
+
+[P869 section=1 loc=196 style="a9" indent=@v11]
+<empty/>
+
+[P870 section=1 loc=197 style="a9" indent=@v11]
+3）表关系图（Table Diagram）
+
+[P871 section=1 loc=198 style="a9" indent=@v11]
+<empty/>
+
+[P872 section=1 loc=199 align="center" special=[{"tag":"w:drawing","location":"/w:document/w:body/w:p[186]/w:r/w:drawing"}]]
+<empty/>
+
+[P873 section=1 loc=200 style="2" spacing=@v4 numbering=@v5]
+安全性设计
+
+[P874 section=1 loc=201 style="a9" indent={"firstLine":"480"}]
+有些安全通过数据库管理和人员管理来保证安全，需要安装数据库系统和应用软件，若需要两台独立机器（数据库服务器、应用系统服务器），数据库服务器什么权限的人能够登录系统，查看后台数据等。
+
+[P875 section=1 loc=202 style="a9" indent={"firstLine":"480"}]
+数据库设计上的安全管理有些通过数据库表设计等技术来实现安全管理。图书馆应用系统需要系统管理员等权限角色管理基础数据、查询数据等权限。
+
+[P876 section=1 loc=203 style="1" align="both" spacing=@v2 keep_next=true keep_lines=true widow=false numbering=@v3]
+开发环境配置
+
+[P877 section=1 loc=204 style="a9" indent={"firstLine":"480"}]
+开发环境：Microsoft Visual Studio 2008 集成开发环境
+
+[P878 section=1 loc=205 style="a9" indent={"firstLine":"480"}]
+开发语言：ASP.NET+C#
+
+[P879 section=1 loc=206 style="a9" indent={"firstLine":"480"}]
+系统后台数据库：Microsoft SQL Server 2008 企业版
+
+[P880 section=1 loc=207 style="a9" indent={"firstLine":"480"}]
+开发环境运行平台：Windows Server 2008 
+
+[P881 section=1 loc=208 style="1" align="both" spacing=@v2 keep_next=true keep_lines=true widow=false numbering=@v3]
+测试环境配置
+
+[P882 section=1 loc=209 style="a9" indent={"firstLine":"480"}]
+部署测试用服务器所必需的操作系统、数据库管理系统、中间件、WEB服务器以及其他必需组件的名称、版本，以及所要用到的相关补丁的版本用来执行测试工作的计算机所必需的操作系统、数据库管理系统、中间件、WEB 服务器以及其他必须组件的名称、版本，以及所要用到的相关补丁的版本测试中所需要使用的网络环境，及是否需要专门的计算机用于被测应用的服务器环境和测试管理服务器的环境的备份。
+
+[P883 section=1 loc=210 style="a9" indent={"firstLine":"480"}]
+软件环境：
+
+[P884 section=1 loc=211 style="a9" indent={"firstLine":"480"}]
+ (1)服务器端
+
+[P885 section=1 loc=212 style="a9" indent={"firstLine":"480"}]
+操作系统：Windows Server2008（SP1）
+
+[P886 section=1 loc=213 style="a9" indent={"firstLine":"480"}]
+Web 服务器：Internet 信息服务(IIS)管理器
+
+[P887 section=1 loc=214 style="a9" indent={"firstLine":"480"}]
+数据库服务器：Microsoft SQL Server 2008 企业版
+
+[P888 section=1 loc=215 style="a9" indent={"firstLine":"480"}]
+浏览器：IE 8.0
+
+[P889 section=1 loc=216 style="a9" indent={"firstLine":"480"}]
+系统服务器运行环境：Microsoft .NET Framework SDK v3.5
+
+[P890 section=1 loc=217 style="a9" indent={"firstLine":"480"}]
+(2) 客户端
+
+[P891 section=1 loc=218 style="a9" indent={"firstLine":"480"}]
+浏览器：Internet Explorer 8.0，Chrome
+
+[P892 section=1 loc=219 style="a9" indent={"firstLine":"480"}]
+分辨率：最佳运行效果 1024×768 像素
+
+[P893 section=1 loc=220 style="a9" indent={"firstLine":"480"}]
+<empty/>
+
+[P894 section=1 loc=221]
+<empty/>

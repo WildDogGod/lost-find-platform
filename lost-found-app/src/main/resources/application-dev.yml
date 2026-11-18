@@ -1,0 +1,15 @@
+zzhx:
+  alioss:
+    # 上传开关：true=走阿里云 OSS，false=退回本地磁盘（upload/ 目录）
+    enabled: true
+    # 地域（V2 SDK 用 region 做签名，不要填 endpoint）
+    region: cn-beijing
+    # bucket 名称
+    bucket-name: rjgz-work
+    # 文件上传到 bucket 下的目录（最终路径：{dir}/{yyyy}/{MM}/{dd}/{uuid}.jpg）
+    dir: lost-found
+    # 访问域名：默认 https://{bucket}.oss-{region}.aliyuncs.com
+    # 如果给 bucket 绑定了自定义域名 / CDN，取消注释并填写
+    # public-base-url: https://img.example.com
+    # 密钥不要写在这里：放到 ~/.lost-found-platform/application-secret.yml，
+    # 或使用环境变量 ALIOSS_ACCESS_KEY_ID / ALIOSS_ACCESS_KEY_SECRET
